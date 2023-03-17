@@ -343,16 +343,16 @@ End
 		      ,尿デコード(row.column("早朝尿").StringValue) _
 		      ,尿デコード(row.column("尿再検").StringValue))
 		      if 1<val(row.column("蛋白").StringValue) then
-		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,2) = WebStyleTextRed
-		      end
-		      if 1<val(row.column("潜血").StringValue) then
 		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,3) = WebStyleTextRed
 		      end
-		      if 0<val(row.column("糖").StringValue) then
+		      if 1<val(row.column("潜血").StringValue) then
 		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,4) = WebStyleTextRed
 		      end
-		      if 2<val(row.column("ウロビリ").StringValue) then
+		      if 0<val(row.column("糖").StringValue) then
 		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,5) = WebStyleTextRed
+		      end
+		      if 2<val(row.column("ウロビリ").StringValue) then
+		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,6) = WebStyleTextRed
 		      end
 		      
 		    next
@@ -455,7 +455,7 @@ End
 		      if (最高>=140 or 最低 >= 90 ) then
 		        血圧 = 血圧 + " H"
 		        WebPage1.Listbox血圧.AddRow(  row.column("血圧ID").StringValue, row.column("血圧日").StringValue,血圧,row.column("脈拍").StringValue,row.column("血圧再検").StringValue)
-		        WebPage1.ListBox血圧.CellStyle(WebPage1.ListBox血圧.LastIndex,1) = WebStyleTextRed
+		        WebPage1.ListBox血圧.CellStyle(WebPage1.ListBox血圧.LastIndex,2) = WebStyleTextRed
 		        
 		      else
 		        WebPage1.Listbox血圧.AddRow(  row.column("血圧ID").StringValue,row.column("血圧日").StringValue,血圧,row.column("脈拍").StringValue,row.column("血圧再検").StringValue)

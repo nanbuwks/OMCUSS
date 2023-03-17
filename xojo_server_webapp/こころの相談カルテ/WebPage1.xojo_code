@@ -1267,7 +1267,7 @@ Begin WebPage WebPage1
    Begin WebListBox ListBox医師受診
       AlternateRowColor=   &cEDF3FE00
       ColumnCount     =   5
-      ColumnWidths    =   "0%,15%,,60%,10%"
+      ColumnWidths    =   "0%,15%,15%,,60%,10%"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True

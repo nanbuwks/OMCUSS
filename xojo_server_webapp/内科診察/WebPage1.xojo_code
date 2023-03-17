@@ -1163,8 +1163,8 @@ Begin WebPage WebPage1
    End
    Begin WebListBox ListBox既往歴
       AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   3
-      ColumnWidths    =   "20%,20%,60%"
+      ColumnCount     =   4
+      ColumnWidths    =   "0%,20%,20%,60%"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True
@@ -1173,7 +1173,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   " 年度	発症年齢	既往病名	生年月日	性別	年次	学部	学科"
+      InitialValue    =   "ID	 年度	発症年齢	既往病名"
       Left            =   680
       ListIndex       =   -1
       LockBottom      =   False
@@ -1206,8 +1206,8 @@ Begin WebPage WebPage1
    End
    Begin WebListBox ListBox医師受診
       AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   4
-      ColumnWidths    =   "15%,15%,60%,10%"
+      ColumnCount     =   5
+      ColumnWidths    =   "0%,15%,15%,60%,10%"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True
@@ -1216,7 +1216,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   "受診日	診察医師名	診察所見	精査要否"
+      InitialValue    =   "ID	受診日	診察医師名	診察所見	精査要否"
       Left            =   680
       ListIndex       =   -1
       LockBottom      =   False
@@ -1393,243 +1393,6 @@ Begin WebPage WebPage1
       VerticalCenter  =   0
       Visible         =   True
       Width           =   200
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebListBox ListBox身長体重
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   4
-      ColumnWidths    =   "40%,20%,20%,20%"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   90
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "年月日	身長	体重	BMI"
-      Left            =   55
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   22
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "0"
-      TabOrder        =   5
-      Top             =   287
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   365
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebListBox ListBox血圧
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   4
-      ColumnWidths    =   "30%,36%,18%,16%"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   90
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "年月日	血圧	脈拍	再検"
-      Left            =   432
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   22
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "0"
-      TabOrder        =   5
-      Top             =   287
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   282
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebListBox ListBox尿検査
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   9
-      ColumnWidths    =   "28%,9%,9%,9%,9%,9%,9%,9%,9%,9%"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   90
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "年月日	ph	 蛋白	潜血	糖	ウロビリ	生理有無	早朝尿	尿再検"
-      Left            =   726
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   22
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "0"
-      TabOrder        =   10
-      Top             =   287
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   732
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebLabel Label6
-      Cursor          =   1
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   32
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   726
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Multiline       =   False
-      Scope           =   0
-      Style           =   "0"
-      TabOrder        =   16
-      Text            =   "尿検査"
-      TextAlign       =   0
-      Top             =   257
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   120
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebLabel Label7
-      Cursor          =   1
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   32
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   55
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Multiline       =   False
-      Scope           =   0
-      Style           =   "0"
-      TabOrder        =   16
-      Text            =   "身長体重"
-      TextAlign       =   0
-      Top             =   257
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   120
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebLabel Label8
-      Cursor          =   1
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   32
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   432
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Multiline       =   False
-      Scope           =   0
-      Style           =   "0"
-      TabOrder        =   16
-      Text            =   "血圧"
-      TextAlign       =   0
-      Top             =   257
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   120
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1860,7 +1623,7 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebListBox ListBox生理
+   Begin WebListBox ListBox生理検査
       AlternateRowColor=   &cEDF3FE00
       ColumnCount     =   10
       ColumnWidths    =   "19%,9%,9%,9%,9%,9%,9%,9%,9%,9%"
@@ -1936,6 +1699,243 @@ Begin WebPage WebPage1
       VerticalCenter  =   0
       Visible         =   False
       Width           =   727
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebLabel Label6
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   32
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   729
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   16
+      Text            =   "尿検査"
+      TextAlign       =   0
+      Top             =   255
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   120
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebLabel Label8
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   32
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   58
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   16
+      Text            =   "身長体重"
+      TextAlign       =   0
+      Top             =   255
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   120
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebLabel Label14
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   32
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   401
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   16
+      Text            =   "血圧"
+      TextAlign       =   0
+      Top             =   254
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   120
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox ListBox身長体重
+      AlternateRowColor=   &cEDF3FE00
+      ColumnCount     =   5
+      ColumnWidths    =   "0%,40%,20%,20%,20%"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "0"
+      Height          =   92
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   "身長体重ID	身長体重日	身長	体重	体脂肪率"
+      Left            =   58
+      ListIndex       =   -1
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   0
+      SelectionStyle  =   "0"
+      Style           =   "0"
+      TabOrder        =   5
+      Top             =   285
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   332
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox ListBox血圧
+      AlternateRowColor=   &cEDF3FE00
+      ColumnCount     =   5
+      ColumnWidths    =   "0%,30%,36%,18%,16%"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "0"
+      Height          =   92
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   "血圧ID	血圧日	血圧	脈拍	再検"
+      Left            =   401
+      ListIndex       =   -1
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   0
+      SelectionStyle  =   "0"
+      Style           =   "0"
+      TabOrder        =   5
+      Top             =   285
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   313
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox ListBox尿検査
+      AlternateRowColor=   &cEDF3FE00
+      ColumnCount     =   10
+      ColumnWidths    =   "0%,28%,9%,9%,9%,9%,9%,9%,9%,9%,9%"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "0"
+      Height          =   92
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   "尿検査ID	尿検査日	ph	 蛋白	潜血	糖	ウロビリ	生理有無	早朝尿	尿再検"
+      Left            =   731
+      ListIndex       =   -1
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   0
+      SelectionStyle  =   "0"
+      Style           =   "0"
+      TabOrder        =   10
+      Top             =   285
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   633
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -2570,7 +2570,7 @@ End
 		    library1.取得身長体重()
 		    library1.取得血圧()
 		    library1.取得尿検査()
-		    library1.取得生理()
+		    library1.取得生理検査()
 		    library1.取得XP検査()
 		    取得既往歴削除()
 		    取得医師受診削除()
@@ -2735,8 +2735,8 @@ End
 		  If Me.ListIndex < 0 Then
 		    // MessageBox("リストから選択してください")
 		  Else
-		    content = Me.Cell(Me.ListIndex, 2)
-		    nenrei = Me.Cell(Me.ListIndex, 1)
+		    content = Me.Cell(Me.ListIndex, 3)
+		    nenrei = Me.Cell(Me.ListIndex, 2)
 		    writeKioField.text=content
 		    writeNenreiField.text=nenrei
 		  End If
@@ -2751,7 +2751,7 @@ End
 		  If Me.ListIndex < 0 Then
 		    // MessageBox("リストから選択してください")
 		  Else
-		    content = Me.Cell(Me.ListIndex, 2)
+		    content = Me.Cell(Me.ListIndex, 3)
 		    writeSyokenField.text=content
 		  End If
 		  

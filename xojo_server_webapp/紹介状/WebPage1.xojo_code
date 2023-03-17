@@ -896,8 +896,8 @@ Begin WebPage WebPage1
    End
    Begin WebListBox ListBox既往歴
       AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   3
-      ColumnWidths    =   "20%,20%,60%"
+      ColumnCount     =   4
+      ColumnWidths    =   "0%,20%,20%,60%"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True
@@ -906,7 +906,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   " 年度	発症年齢	既往病名	生年月日	性別	年次	学部	学科"
+      InitialValue    =   "既往症ID	 年度	発症年齢	既往病名"
       Left            =   58
       ListIndex       =   -1
       LockBottom      =   False
@@ -939,8 +939,8 @@ Begin WebPage WebPage1
    End
    Begin WebListBox ListBox医師受診
       AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   4
-      ColumnWidths    =   "15%,60%,15%,10%"
+      ColumnCount     =   5
+      ColumnWidths    =   "0%,15%,15%,60%,10%"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True
@@ -949,7 +949,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   "受診日	診察所見	診察医師名	精査要否"
+      InitialValue    =   "医師受診ID	受診日	診察医師名	診察所見	精査要否"
       Left            =   772
       ListIndex       =   -1
       LockBottom      =   False
@@ -2220,7 +2220,57 @@ Begin WebPage WebPage1
       Visible         =   True
       Width           =   100
       ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
       _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox ListBox生理検査
+      AlternateRowColor=   &cEDF3FE00
+      ColumnCount     =   11
+      ColumnWidths    =   "0%,19%,9%,9%,9%,9%,9%,9%,9%,9%,9%"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "0"
+      Height          =   77
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   "生理検査ID	生理検査日	右視力1	左視力1	矯正1	右視力2	左視力2	矯正2	色覚	右聴力	左聴力"
+      Left            =   58
+      ListIndex       =   -1
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   0
+      SelectionStyle  =   "0"
+      Style           =   "0"
+      TabOrder        =   5
+      Top             =   1356
+      VerticalCenter  =   0
+      Visible         =   False
+      Width           =   652
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
    End
 End
 #tag EndWebPage
@@ -2803,7 +2853,7 @@ End
 		    library1.取得身長体重()
 		    library1.取得血圧()
 		    library1.取得尿検査()
-		    library1.取得生理()
+		    library1.取得生理検査()
 		    library1.取得XP検査()
 		    取得紹介状()
 		    //setlink()
@@ -2906,7 +2956,7 @@ End
 		Sub Action()
 		  
 		  If ListBox紹介状.ListIndex < 0 Then
-		     MessageBox("リストから選択してください")
+		    MessageBox("リストから選択してください")
 		  Else
 		    
 		    write病院名Field.text= ListBox紹介状.Cell(ListBox紹介状.ListIndex, 3)
@@ -2940,8 +2990,6 @@ End
 		  
 		End Sub
 	#tag EndEvent
-#tag EndEvents
-#tag Events writeButton3
 #tag EndEvents
 #tag Events writeButton4
 	#tag Event

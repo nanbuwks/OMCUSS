@@ -72,7 +72,7 @@ End
 		Function zenhankanafix(zenString as string) As String
 		  Var result As String
 		  result = zenString
-		  result = result.ReplaceAll("␣", " ")
+		  result = result.ReplaceAll("　", " ")
 		  result = result.ReplaceAll("１", "1")
 		  result = result.ReplaceAll("２", "2")
 		  result = result.ReplaceAll("３", "3")
@@ -343,16 +343,16 @@ End
 		      ,尿デコード(row.column("早朝尿").StringValue) _
 		      ,尿デコード(row.column("尿再検").StringValue))
 		      if 1<val(row.column("蛋白").StringValue) then
-		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,2) = WebStyleTextRed
-		      end
-		      if 1<val(row.column("潜血").StringValue) then
 		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,3) = WebStyleTextRed
 		      end
-		      if 0<val(row.column("糖").StringValue) then
+		      if 1<val(row.column("潜血").StringValue) then
 		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,4) = WebStyleTextRed
 		      end
-		      if 2<val(row.column("ウロビリ").StringValue) then
+		      if 0<val(row.column("糖").StringValue) then
 		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,5) = WebStyleTextRed
+		      end
+		      if 2<val(row.column("ウロビリ").StringValue) then
+		        WebPage1.ListBox尿検査.CellStyle(WebPage1.ListBox尿検査.LastIndex,6) = WebStyleTextRed
 		      end
 		      
 		    next
