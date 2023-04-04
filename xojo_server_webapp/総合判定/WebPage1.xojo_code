@@ -1504,7 +1504,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   "身長体重ID	身長体重日	身長	体重	体脂肪率"
+      InitialValue    =   "身長体重ID	身長体重日	身長	体重	BMI"
       Left            =   58
       ListIndex       =   -1
       LockBottom      =   False

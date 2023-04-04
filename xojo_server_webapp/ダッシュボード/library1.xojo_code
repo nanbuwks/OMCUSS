@@ -323,7 +323,7 @@ End
 		    sql = "SELECT 尿検査ID,DATE_FORMAT(尿検査日, '%Y/%m/%d') AS 尿検査日,ph,蛋白,潜血,糖,ウロビリ,早朝尿"_
 		    +", CASE 生理有無 WHEN 1 THEN '生理' ELSE '' END AS 生理有無 "_
 		    +", CASE 尿再検 WHEN 1 THEN '再検' ELSE '' END AS 尿再検 "_
-		    +" FROM 尿検査 WHERE 学生番号 = '"+id+"' AND 年度取得(尿検査日)=年度取得(NOW()) ORDER BY 尿検査日 DESC"
+		    +" FROM 尿検査 WHERE 学生番号 = '"+id+"'  ORDER BY 尿検査日 DESC"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -455,7 +455,7 @@ End
 		      if (最高>=140 or 最低 >= 90 ) then
 		        血圧 = 血圧 + " H"
 		        WebPage1.Listbox血圧.AddRow(  row.column("血圧ID").StringValue, row.column("血圧日").StringValue,血圧,row.column("脈拍").StringValue,row.column("血圧再検").StringValue)
-		        WebPage1.ListBox血圧.CellStyle(WebPage1.ListBox血圧.LastIndex,1) = WebStyleTextRed
+		        WebPage1.ListBox血圧.CellStyle(WebPage1.ListBox血圧.LastIndex,2) = WebStyleTextRed
 		        
 		      else
 		        WebPage1.Listbox血圧.AddRow(  row.column("血圧ID").StringValue,row.column("血圧日").StringValue,血圧,row.column("脈拍").StringValue,row.column("血圧再検").StringValue)
@@ -475,7 +475,7 @@ End
 		  id = WebPage1.writeField.text
 		  
 		  try
-		    sql = "SELECT 身長体重ID, DATE_FORMAT(身長体重日, '%Y/%m/%d') AS 身長体重日,身長,体重,体脂肪率 FROM 身長体重 where 学生番号 = '"+id+"' order by  身長体重日 desc"
+		    sql = "SELECT 身長体重ID, DATE_FORMAT(身長体重日, '%Y/%m/%d') AS 身長体重日,身長,体重,BMI FROM 身長体重 where 学生番号 = '"+id+"' order by  身長体重日 desc"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -486,7 +486,7 @@ End
 		  try
 		    for each row as databaserow in rs
 		      
-		      WebPage1.Listbox身長体重.AddRow(  row.column("身長体重ID").StringValue,row.column("身長体重日").StringValue,row.column("身長").StringValue,row.column("体重").StringValue,row.column("体脂肪率").StringValue)
+		      WebPage1.Listbox身長体重.AddRow(  row.column("身長体重ID").StringValue,row.column("身長体重日").StringValue,row.column("身長").StringValue,row.column("体重").StringValue,row.column("BMI").StringValue)
 		      
 		    next
 		  Catch e as DatabaseException

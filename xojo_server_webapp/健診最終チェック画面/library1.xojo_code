@@ -259,7 +259,7 @@ End
 		  id = WebPage1.writeField.text
 		  
 		  try
-		    sql = "SELECT XP検査ID,DATE_FORMAT(XP検査日, '    %Y/%m/%d') AS XP検査日,フィルムNO,判定,判読 FROM XP検査,T_XP判定コード where 学生番号 = '"+id+"' AND 年度取得(XP検査日)=年度取得(NOW())  AND XP検査.判読コード=T_XP判定コード.判読コード order by  XP検査日 desc;"
+		    sql = "SELECT XP検査ID,DATE_FORMAT(XP検査日, '    %Y/%m/%d') AS XP検査日,フィルムNO,判定,判読 FROM XP検査,T_XP判定コード where 学生番号 = '"+id+"' AND 年度取得(XP検査日)='"+WebPage1.writeNendoField.Text+"'  AND XP検査.判読コード=T_XP判定コード.判読コード order by  XP検査日 desc;"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -289,7 +289,7 @@ End
 		  try
 		    sql = "SELECT 医師受診ID,DATE_FORMAT(医師受診日, '%Y/%m/%d') AS 医師受診日,診察所見,診察医師名,所見分類"_
 		    +", CASE 精査要否 WHEN 1 THEN '要' ELSE '' END AS 精査要否 "_
-		    +" FROM 医師受診 where 学生番号 = '"+id+"' AND 年度取得(医師受診日)=年度取得(NOW()) order by 医師受診日 desc"
+		    +" FROM 医師受診 where 学生番号 = '"+id+"' AND 年度取得(医師受診日)='"+WebPage1.writeNendoField.Text+"'  order by 医師受診日 desc"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -323,7 +323,7 @@ End
 		    sql = "SELECT 尿検査ID,DATE_FORMAT(尿検査日, '%Y/%m/%d') AS 尿検査日,ph,蛋白,潜血,糖,ウロビリ,早朝尿"_
 		    +", CASE 生理有無 WHEN 1 THEN '生理' ELSE '' END AS 生理有無 "_
 		    +", CASE 尿再検 WHEN 1 THEN '再検' ELSE '' END AS 尿再検 "_
-		    +" FROM 尿検査 WHERE 学生番号 = '"+id+"' AND 年度取得(尿検査日)=年度取得(NOW()) ORDER BY 尿検査日 DESC"
+		    +" FROM 尿検査 WHERE 学生番号 = '"+id+"' AND 年度取得(尿検査日)='"+WebPage1.writeNendoField.Text+"'  ORDER BY 尿検査日 DESC"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -370,7 +370,7 @@ End
 		  id = WebPage1.writeField.text
 		  
 		  try
-		    sql = "SELECT 既往歴ID,年度,発症年齢,既往病名 FROM 既往歴 where 学生番号 like '"+id+"%' AND 年度=年度取得(NOW()) order by  既往歴ID desc"
+		    sql = "SELECT 既往歴ID,年度,発症年齢,既往病名 FROM 既往歴 where 学生番号 like '"+id+"%' AND 年度='"+WebPage1.writeNendoField.Text+"' order by  既往歴ID desc"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -399,7 +399,7 @@ End
 		  
 		  try
 		    sql = "SELECT 生理検査ID, DATE_FORMAT(生理検査日, '%Y/%m/%d') AS 生理検査日,右視力1,左視力1,矯正1,右視力2,左視力2,矯正2,色覚,右聴力,左聴力"_
-		    +" FROM 生理検査 where 学生番号 = '"+id+"' AND 年度取得(生理検査日)=年度取得(NOW()) order by  生理検査日 desc"
+		    +" FROM 生理検査 where 学生番号 = '"+id+"' AND 年度取得(生理検査日)='"+WebPage1.writeNendoField.Text+"'  order by  生理検査日 desc"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -420,6 +420,12 @@ End
 		      row.column("色覚").StringValue,_
 		      row.column("右聴力").StringValue,_
 		      row.column("左聴力").StringValue)
+		      if ("0" <> row.column("右聴力").StringValue ) then
+		        WebPage1.ListBox生理検査.CellStyle(WebPage1.ListBox生理検査.LastIndex,9) = WebStyleTextRed
+		      end
+		      if ("0" <> row.column("左聴力").StringValue ) then
+		        WebPage1.ListBox生理検査.CellStyle(WebPage1.ListBox生理検査.LastIndex,10) = WebStyleTextRed
+		      end
 		      
 		    next
 		  Catch e as DatabaseException
@@ -439,7 +445,7 @@ End
 		  try
 		    sql = "SELECT 血圧ID, DATE_FORMAT(血圧日, '%Y/%m/%d') AS 血圧日,最高,最低,脈拍,"_
 		    +" CASE 血圧再検 WHEN 1 THEN '再検' ELSE '' END AS 血圧再検 "_
-		    +" FROM 血圧 where 学生番号 = '"+id+"' AND 年度取得(血圧日)=年度取得(NOW())  order by  血圧日 desc"
+		    +" FROM 血圧 where 学生番号 = '"+id+"' AND 年度取得(血圧日)='"+WebPage1.writeNendoField.Text+"'   order by  血圧日 desc"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -475,7 +481,7 @@ End
 		  id = WebPage1.writeField.text
 		  
 		  try
-		    sql = "SELECT 身長体重ID, DATE_FORMAT(身長体重日, '%Y/%m/%d') AS 身長体重日,身長,体重,体脂肪率 FROM 身長体重 where 学生番号 = '"+id+"' AND 年度取得(身長体重日)=年度取得(NOW()) order by  身長体重日 desc"
+		    sql = "SELECT 身長体重ID, DATE_FORMAT(身長体重日, '%Y/%m/%d') AS 身長体重日,身長,体重,BMI FROM 身長体重 where 学生番号 = '"+id+"' AND 年度取得(身長体重日)='"+WebPage1.writeNendoField.Text+"'  order by  身長体重日 desc"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -486,7 +492,7 @@ End
 		  try
 		    for each row as databaserow in rs
 		      
-		      WebPage1.Listbox身長体重.AddRow(  row.column("身長体重ID").StringValue,row.column("身長体重日").StringValue,row.column("身長").StringValue,row.column("体重").StringValue,row.column("体脂肪率").StringValue)
+		      WebPage1.Listbox身長体重.AddRow(  row.column("身長体重ID").StringValue,row.column("身長体重日").StringValue,row.column("身長").StringValue,row.column("体重").StringValue,row.column("BMI").StringValue)
 		      
 		    next
 		  Catch e as DatabaseException

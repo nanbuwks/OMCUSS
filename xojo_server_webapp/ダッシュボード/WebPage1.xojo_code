@@ -748,7 +748,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   "身長体重ID	身長体重日	身長	体重	体脂肪率"
+      InitialValue    =   "身長体重ID	身長体重日	身長	体重	BMI"
       Left            =   20
       ListIndex       =   -1
       LockBottom      =   False
@@ -1748,7 +1748,7 @@ Begin WebPage WebPage1
    Begin WebListBox ListBox総合判定
       AlternateRowColor=   &cEDF3FE00
       ColumnCount     =   5
-      ColumnWidths    =   "0%,10%,50%,10%,30%"
+      ColumnWidths    =   "0%,15%,45%,15%,25%"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True
@@ -2111,7 +2111,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   12
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -2125,7 +2125,7 @@ Begin WebPage WebPage1
       starttop        =   0
       Style           =   "0"
       TabOrder        =   28
-      Top             =   867
+      Top             =   1015
       VerticalCenter  =   0
       Visible         =   True
       Width           =   801
@@ -2255,6 +2255,110 @@ Begin WebPage WebPage1
       _ShownEventFired=   False
       _VerticalPercent=   0.0
    End
+   Begin WebRectangle Rectangle1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   74
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   12
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   -1
+      Top             =   867
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   192
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton Button1
+      AutoDisable     =   False
+      Caption         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   44
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   52
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   21
+      Top             =   882
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   119
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebLink Link1
+      Cursor          =   0
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   44
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   62
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   22
+      Target          =   1
+      Text            =   "一覧表発行"
+      TextAlign       =   0
+      Top             =   882
+      URL             =   "template/"
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   99
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
 End
 #tag EndWebPage
 
@@ -2338,6 +2442,16 @@ End
 		End Sub
 	#tag EndEvent
 
+
+	#tag Method, Flags = &h21
+		Private Sub setlink()
+		  
+		  var Host() as String
+		  Host = Session.Header("Host").split(":")
+		  Link1.URL="http://"+Host(0).DefineEncoding(Encodings.UTF8).ToText+"/template/mkpdf.php?use=一覧表&key="+writeField.text
+		  
+		End Sub
+	#tag EndMethod
 
 	#tag Method, Flags = &h0
 		Sub setRecord(hoge as String)
@@ -3179,6 +3293,7 @@ End
 		    フィールドクリアwo_writeField()
 		    Me.text=library1.zenhankanafix(Me.text)
 		    setRecord(Me.text)
+		    setlink()
 		    表示更新()
 		  end
 		  

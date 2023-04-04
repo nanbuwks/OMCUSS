@@ -24,7 +24,7 @@ Begin WebPage WebPage1
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   1686
+   Width           =   1502
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
@@ -693,49 +693,6 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebListBox ListBoxXP検査
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   4
-      ColumnWidths    =   "15%,10%,20%,55%"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   55
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "年月日	フィルムNO	判定	判読"
-      Left            =   762
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   22
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "0"
-      TabOrder        =   10
-      Top             =   793
-      VerticalCenter  =   0
-      Visible         =   False
-      Width           =   727
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
    Begin WebLabel Label3
       Cursor          =   1
       Enabled         =   True
@@ -1000,7 +957,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   "身長体重ID	身長体重日	身長	体重	体脂肪率"
+      InitialValue    =   "身長体重ID	身長体重日	身長	体重	BMI"
       Left            =   91
       ListIndex       =   -1
       LockBottom      =   False
@@ -1160,49 +1117,6 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebListBox ListBoxXP検査1
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   4
-      ColumnWidths    =   "0%,40%,30%,30%"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   77
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "XP検査ID	XP検査日	フィルムNO	判読	矯正1	右視力2	左視力2	矯正2	色覚	右聴力	左聴力"
-      Left            =   762
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   22
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "0"
-      TabOrder        =   5
-      Top             =   434
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   633
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
    Begin WebListBox ListBox医師受診
       AlternateRowColor=   &cEDF3FE00
       ColumnCount     =   5
@@ -1289,6 +1203,200 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
+   Begin WebTextField writeNendoField
+      AutoCapitalize  =   True
+      AutoComplete    =   True
+      AutoCorrect     =   True
+      CueText         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   37
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   1315
+      LimitText       =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Password        =   False
+      ReadOnly        =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   15
+      Text            =   ""
+      TextAlign       =   0
+      Top             =   0
+      Type            =   0
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   82
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebLabel Label10
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   33
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   1250
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   17
+      Text            =   "年度"
+      TextAlign       =   0
+      Top             =   0
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   53
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin Container編集 Container編集1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   473
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      startleft       =   0
+      starttop        =   0
+      Style           =   "0"
+      TabOrder        =   28
+      Top             =   793
+      VerticalCenter  =   0
+      Visible         =   False
+      Width           =   801
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin Container検索 Container検索1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   500
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   813
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      startleft       =   0
+      starttop        =   0
+      Style           =   "0"
+      TabOrder        =   29
+      Top             =   941
+      VerticalCenter  =   0
+      Visible         =   False
+      Width           =   1200
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox ListBoxXP検査
+      AlternateRowColor=   &cEDF3FE00
+      ColumnCount     =   5
+      ColumnWidths    =   "0%,15%,10%,20%,55%"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "0"
+      Height          =   77
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   "XP検査ID	XP検査日	フィルムNO	判定	判読"
+      Left            =   762
+      ListIndex       =   -1
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   0
+      SelectionStyle  =   "0"
+      Style           =   "0"
+      TabOrder        =   10
+      Top             =   434
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   631
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
 End
 #tag EndWebPage
 
@@ -1298,8 +1406,9 @@ End
 		  
 		  
 		  Var jsonFile As TextInputStream
-		  Var jsoncontents As String
-		  var f,dir as Folderitem
+		  Var jsoncontents,sql As String
+		  Var f,dir as Folderitem
+		  Var rs as RowSet
 		  dir = SpecialFolder.CurrentWorkingDirectory
 		  f = dir.Child("dbaccess.json")
 		  If Not( f.Exists ) Then
@@ -1334,15 +1443,35 @@ End
 		      
 		      
 		      //self.db.SQLExecute("set character_set_results=CP932")
-		      App.db.SQLExecute("use test")
+		      //App.db.SQLExecute("use test")
 		    Catch error as DatabaseException
 		      MessageBox error.Message
+		    end try
+		    
+		    try
+		      sql = "SELECT 年度取得(NOW()) as 年度;"
+		      // ３月から新年度
+		      rs = App.db.SelectSQL(sql)
+		      
+		    Catch e as DatabaseException
+		      messagebox e.Message
+		    end try
+		    
+		    try
+		      for each row as databaserow in rs
+		        writeNendoField.Text=row.column("年度").StringValue
+		        
+		      next
+		    Catch e as DatabaseException
+		      messagebox e.Message
 		    end try
 		  end if
 		  'var id,furigana ,sql as String
 		  'var rs as RowSet
 		  
-		  
+		  if "Admin"  = App.userofGetParamater Then
+		    modeAdmin=True
+		  End if
 		End Sub
 	#tag EndEvent
 
@@ -1630,6 +1759,153 @@ End
 		End Sub
 	#tag EndMethod
 
+	#tag Method, Flags = &h0
+		Sub 検索画面表示(表示 as Integer)
+		  
+		  // 1... 画面中央に表示 0...初期位置に表示 それ以外(-1)...非表示
+		  if (1=表示) then 
+		    Container検索1.Top=300
+		    Container検索1.Left=300
+		    Container検索1.Visible=True
+		  elseif (0=表示) then
+		    Container検索1.Visible=True
+		    Container検索1.Top=1800
+		    Container検索1.Left=300
+		  else
+		    Container検索1.Visible=False
+		  end if
+		  
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 編集ControlWebMenuItem(WLB As WebListBox, Item As WebMenuItem)
+		  Select Case Item.Text
+		  Case "追加"
+		    編集Controlビュー作成(WLB,"追加")
+		    Container編集1.データ取得("追加")
+		    Container編集1.画面作成("追加")
+		    編集画面表示(1)
+		  Case "詳細"
+		    Container編集1.データ取得("詳細")
+		    Container編集1.画面作成("詳細")
+		    編集画面表示(1)
+		  Case "編集"
+		    Container編集1.データ取得("詳細")
+		    Container編集1.画面作成("編集")
+		    編集画面表示(1)
+		  End Select
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 編集Controlビュー作成(WLB as WebListBox, 処理 as String)
+		  //return
+		  Var ID as String
+		  // Cotainer編集1.Listbox編集および学生番号、テーブル名、キー名、IDをセット
+		  if (処理="詳細" and WLB.ListIndex < 0)Then
+		    MessageBox("リストから選択してください")
+		  Else
+		    Container編集1.Label編集学生番号.Text = writeField.text
+		    Container編集1.Label編集テーブル名.text=WLB.Heading(0).Left(WLB.Heading(0).Length-2)
+		    Container編集1.Label編集キー名.Text=WLB.Heading(0)
+		    if (処理="詳細" ) Then
+		      ID = WLB.Cell(WLB.ListIndex, 0)
+		      Container編集1.Label編集ID.Text =ID
+		    end
+		    
+		    Container編集1.Listbox編集.ColumnCount=WLB.ColumnCount
+		    Container編集1.Listbox編集.ColumnWidths=WLB.ColumnWidths
+		    Container編集1.Listbox編集.DeleteAllRows()
+		    Container編集1.Listbox編集.AddRow()
+		    
+		    Var i As Integer
+		    For i = 0 To WLB.ColumnCount-1
+		      // テーブルフィールド名情報を複写
+		      Container編集1.Listbox編集.Heading(i) = WLB.Heading(i)
+		      // 編集対象レコードの各フィールド内容およびスタイルを複写
+		      if ("詳細" = 処理) then
+		        Container編集1.Listbox編集.Cell(0,i)=WLB.Cell(WLB.ListIndex,i)
+		        Container編集1.Listbox編集.CellStyle(0,i)=WLB.CellStyle(WLB.ListIndex,i)
+		      end
+		    Next
+		    Container編集1.データ取得(処理)
+		    Container編集1.画面作成("詳細")
+		    編集画面表示(0)
+		  end if
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 編集画面表示(表示 as Integer)
+		  
+		  // 1... 画面中央に表示 0...初期位置に表示 それ以外(-1)...非表示
+		  if (1=表示) then 
+		    Container編集1.Top=300
+		    Container編集1.Left=300
+		    Container編集1.Visible=True
+		  elseif (0=表示) then
+		    Container編集1.Visible=True
+		    WebPage1.Container編集1.Top=WebPage1.Container編集1.starttop
+		    WebPage1.Container編集1.Left=WebPage1.Container編集1.startleft
+		    WebPage1.Container編集1.ButtonOK.Visible=False
+		    WebPage1.Container編集1.Buttonキャンセル.Visible=False
+		    WebPage1.Container編集1.Button編集.Visible=False
+		    WebPage1.Container編集1.Button修正.Visible=False
+		    WebPage1.Container編集1.Button削除.Visible=False
+		    WebPage1.Container編集1.Button追加.Visible=False
+		    WebPage1.Container編集1.RectangleREDBG.Visible=False
+		  else
+		    Container編集1.Visible=False
+		    WebPage1.Container編集1.Top=WebPage1.Container編集1.starttop
+		    WebPage1.Container編集1.Left=WebPage1.Container編集1.startleft
+		    WebPage1.Container編集1.ButtonOK.Visible=False
+		    WebPage1.Container編集1.Buttonキャンセル.Visible=False
+		    WebPage1.Container編集1.Button編集.Visible=False
+		    WebPage1.Container編集1.Button修正.Visible=False
+		    WebPage1.Container編集1.Button削除.Visible=False
+		    WebPage1.Container編集1.Button追加.Visible=False
+		    WebPage1.Container編集1.RectangleREDBG.Visible=False
+		  end if
+		  
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 表示更新()
+		  
+		  //library1.取得既往歴()
+		  //library1.取得医師受診()
+		  //library1.取得身長体重()
+		  //library1.取得血圧()
+		  //library1.取得尿検査()
+		  //取得ECG検査()
+		  //library1.取得XP検査()
+		  //library1.取得生理検査()
+		  //取得問診票既往()
+		  //取得問診票症状()
+		  //取得問診票診断()
+		  //取得抗体価()
+		  //取得HBs抗体()
+		  //取得末血検査()
+		  //取得採血()
+		  //取得メモ()
+		  //取得総合判定()
+		  //取得紹介状()
+		  //取得塩分量()
+		  //取得その他検査()
+		  
+		End Sub
+	#tag EndMethod
+
+
+	#tag Property, Flags = &h0
+		modeAdmin As Boolean
+	#tag EndProperty
+
 
 #tag EndWindowCode
 
@@ -1724,6 +2000,200 @@ End
 		    library1.取得XP検査単年度()
 		    //setlink()
 		  end
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBox身長体重
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  if True = modeAdmin then
+		    menu.Append(New WebMenuItem("追加"))
+		  end if
+		  menu.Append(New WebMenuItem("詳細"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBox血圧
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  if True = modeAdmin then
+		    menu.Append(New WebMenuItem("追加"))
+		  end if
+		  menu.Append(New WebMenuItem("詳細"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBox尿検査
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  if True = modeAdmin then
+		    menu.Append(New WebMenuItem("追加"))
+		  end if
+		  menu.Append(New WebMenuItem("詳細"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBox生理検査
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  if True = modeAdmin then
+		    menu.Append(New WebMenuItem("追加"))
+		  end if
+		  menu.Append(New WebMenuItem("詳細"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBox医師受診
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  if True = modeAdmin then
+		    menu.Append(New WebMenuItem("追加"))
+		  end if
+		  menu.Append(New WebMenuItem("詳細"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBox既往歴
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  if True = modeAdmin then
+		    menu.Append(New WebMenuItem("追加"))
+		  end if
+		  menu.Append(New WebMenuItem("詳細"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events writeNendoField
+	#tag Event
+		Sub KeyPressed(Details As REALbasic.KeyEvent)
+		  Select Case details.KeyCode
+		  Case details.KeyEnter
+		    writeNendoField.text=library1.onlynumber(writeNendoField.text)
+		    if "" = Me.text then
+		      フィールドクリア()
+		    else
+		      Me.text=zenhankanafix(Me.text)
+		      setRecord(Me.text)
+		      library1.取得既往歴単年度()
+		      library1.取得医師受診単年度()
+		      library1.取得身長体重単年度()
+		      library1.取得血圧単年度()
+		      library1.取得尿検査単年度()
+		      library1.取得生理検査単年度()
+		      library1.取得XP検査単年度()
+		      //setlink()
+		    end
+		  End Select
+		  
 		  
 		End Sub
 	#tag EndEvent
@@ -2031,6 +2501,14 @@ End
 		Group="Behavior"
 		InitialValue=""
 		Type="Double"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="modeAdmin"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Boolean"
 		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior

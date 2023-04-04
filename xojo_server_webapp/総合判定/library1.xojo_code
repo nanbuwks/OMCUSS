@@ -475,7 +475,7 @@ End
 		  id = WebPage1.writeField.text
 		  
 		  try
-		    sql = "SELECT 身長体重ID, DATE_FORMAT(身長体重日, '%Y/%m/%d') AS 身長体重日,身長,体重,体脂肪率 FROM 身長体重 where 学生番号 = '"+id+"' order by  身長体重日 desc"
+		    sql = "SELECT 身長体重ID, DATE_FORMAT(身長体重日, '%Y/%m/%d') AS 身長体重日,身長,体重,BMI FROM 身長体重 where 学生番号 = '"+id+"' order by  身長体重日 desc"
 		    rs =app.db.SelectSQL(sql)
 		    
 		  Catch e as DatabaseException
@@ -486,7 +486,7 @@ End
 		  try
 		    for each row as databaserow in rs
 		      
-		      WebPage1.Listbox身長体重.AddRow(  row.column("身長体重ID").StringValue,row.column("身長体重日").StringValue,row.column("身長").StringValue,row.column("体重").StringValue,row.column("体脂肪率").StringValue)
+		      WebPage1.Listbox身長体重.AddRow(  row.column("身長体重ID").StringValue,row.column("身長体重日").StringValue,row.column("身長").StringValue,row.column("体重").StringValue,row.column("BMI").StringValue)
 		      
 		    next
 		  Catch e as DatabaseException

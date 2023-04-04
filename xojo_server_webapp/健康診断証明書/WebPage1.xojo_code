@@ -1096,7 +1096,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      InitialValue    =   "身長体重ID	身長体重日	身長	体重	体脂肪率"
+      InitialValue    =   "身長体重ID	身長体重日	身長	体重	BMI"
       Left            =   91
       ListIndex       =   -1
       LockBottom      =   False
@@ -1246,49 +1246,6 @@ Begin WebPage WebPage1
       VerticalCenter  =   0
       Visible         =   True
       Width           =   652
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebListBox ListBoxXP検査
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   4
-      ColumnWidths    =   "0%,40%,30%,30%"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   True
-      HeaderStyle     =   "0"
-      Height          =   105
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "XP検査ID	XP検査日	フィルムNO	判読	矯正1	右視力2	左視力2	矯正2	色覚	右聴力	左聴力"
-      Left            =   966
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   22
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   0
-      SelectionStyle  =   "0"
-      Style           =   "0"
-      TabOrder        =   5
-      Top             =   531
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   495
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1539,7 +1496,7 @@ Begin WebPage WebPage1
    Begin WebListBox ListBox総合判定
       AlternateRowColor=   &cEDF3FE00
       ColumnCount     =   5
-      ColumnWidths    =   "0%,10%,50%,10%,30%"
+      ColumnWidths    =   "0%,20%,35%,20%,25%"
       Cursor          =   0
       Enabled         =   True
       HasHeading      =   True
@@ -1569,6 +1526,49 @@ Begin WebPage WebPage1
       VerticalCenter  =   0
       Visible         =   True
       Width           =   703
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox ListBoxXP検査
+      AlternateRowColor=   &cEDF3FE00
+      ColumnCount     =   5
+      ColumnWidths    =   "0%,20%,15%,20%,45%"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "0"
+      Height          =   105
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   "XP検査ID	年月日	フィルムNO	判定	判読"
+      Left            =   966
+      ListIndex       =   -1
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   0
+      SelectionStyle  =   "0"
+      Style           =   "0"
+      TabOrder        =   10
+      Top             =   531
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   492
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -2114,6 +2114,34 @@ End
 		    編集Controlビュー作成(Me,"詳細")
 		  end
 		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBoxXP検査
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  if True = modeAdmin then
+		    menu.Append(New WebMenuItem("追加"))
+		  end if
+		  menu.Append(New WebMenuItem("詳細"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
 		End Sub
 	#tag EndEvent
 #tag EndEvents
