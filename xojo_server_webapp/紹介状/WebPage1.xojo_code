@@ -36,6 +36,76 @@ Begin WebPage WebPage1
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
+   Begin WebLabel Label25
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   32
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   883
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   16
+      Text            =   "（入力済みの紹介状の修正、削除はダッシュボード等から行ってください）"
+      TextAlign       =   0
+      Top             =   1070
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   474
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton writeButton5
+      AutoDisable     =   False
+      Caption         =   "新たに紹介状を作成"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   40
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   503
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      Style           =   "1767954431"
+      TabOrder        =   22
+      Top             =   1070
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   349
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
    Begin WebTextField furiganaField
       AutoCapitalize  =   True
       AutoComplete    =   True
@@ -916,7 +986,7 @@ Begin WebPage WebPage1
       TabOrder        =   20
       Text            =   "病院名"
       TextAlign       =   0
-      Top             =   950
+      Top             =   754
       VerticalCenter  =   0
       Visible         =   True
       Width           =   73
@@ -954,11 +1024,11 @@ Begin WebPage WebPage1
       Password        =   False
       ReadOnly        =   False
       Scope           =   0
-      Style           =   "1767954431"
+      Style           =   "579897343"
       TabOrder        =   18
       Text            =   ""
       TextAlign       =   0
-      Top             =   963
+      Top             =   767
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -973,16 +1043,178 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebButton writeButton1
-      AutoDisable     =   False
-      Caption         =   "紹介状登録"
+   Begin WebTextField write医師氏名Field
+      AutoCapitalize  =   True
+      AutoComplete    =   True
+      AutoCorrect     =   True
+      CueText         =   ""
       Cursor          =   0
       Enabled         =   True
-      Height          =   55
+      HasFocusRing    =   True
+      Height          =   31
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   76
+      Left            =   156
+      LimitText       =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Password        =   False
+      ReadOnly        =   False
+      Scope           =   0
+      Style           =   "579897343"
+      TabOrder        =   18
+      Text            =   ""
+      TextAlign       =   0
+      Top             =   848
+      Type            =   0
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   327
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebTextArea writeメモArea1
+      CueText         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   138
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   66
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      ReadOnly        =   False
+      Scope           =   0
+      ScrollPosition  =   0
+      Style           =   "0"
+      TabOrder        =   23
+      Text            =   ""
+      TextAlign       =   0
+      Top             =   907
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   418
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebTextArea View内容Area
+      CueText         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   230
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   486
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      ReadOnly        =   True
+      Scope           =   0
+      ScrollPosition  =   0
+      Style           =   "579897343"
+      TabOrder        =   23
+      Text            =   ""
+      TextAlign       =   0
+      Top             =   766
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   966
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebTextField write受診科Field
+      AutoCapitalize  =   True
+      AutoComplete    =   True
+      AutoCorrect     =   True
+      CueText         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   31
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   156
+      LimitText       =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Password        =   False
+      ReadOnly        =   False
+      Scope           =   0
+      Style           =   "579897343"
+      TabOrder        =   18
+      Text            =   ""
+      TextAlign       =   0
+      Top             =   807
+      Type            =   0
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   327
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton writeButton4
+      AutoDisable     =   False
+      Caption         =   "メモを修正"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   40
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   82
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -992,11 +1224,11 @@ Begin WebPage WebPage1
       LockVertical    =   False
       Scope           =   0
       Style           =   "1767954431"
-      TabOrder        =   19
-      Top             =   1249
+      TabOrder        =   22
+      Top             =   1070
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   200
+      Width           =   349
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1025,7 +1257,7 @@ Begin WebPage WebPage1
       Scope           =   2
       Style           =   "0"
       TabOrder        =   -1
-      Top             =   593
+      Top             =   598
       VerticalCenter  =   0
       Visible         =   True
       Width           =   1406
@@ -1041,14 +1273,14 @@ Begin WebPage WebPage1
    End
    Begin WebButton writeButton2
       AutoDisable     =   False
-      Caption         =   "この紹介状をコピー"
+      Caption         =   "この内容を元に新紹介状を作成"
       Cursor          =   0
       Enabled         =   True
       Height          =   40
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   495
+      Left            =   503
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1059,7 +1291,7 @@ Begin WebPage WebPage1
       Scope           =   0
       Style           =   "1767954431"
       TabOrder        =   22
-      Top             =   922
+      Top             =   1008
       VerticalCenter  =   0
       Visible         =   True
       Width           =   349
@@ -1106,44 +1338,6 @@ Begin WebPage WebPage1
       VerticalCenter  =   0
       Visible         =   True
       Width           =   1396
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebTextArea write内容Area
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   341
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   485
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      ReadOnly        =   False
-      Scope           =   0
-      ScrollPosition  =   0
-      Style           =   "0"
-      TabOrder        =   23
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   963
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   966
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1212,53 +1406,10 @@ Begin WebPage WebPage1
       TabOrder        =   20
       Text            =   "受診科"
       TextAlign       =   0
-      Top             =   990
+      Top             =   794
       VerticalCenter  =   0
       Visible         =   True
       Width           =   73
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebTextField write受診科Field
-      AutoCapitalize  =   True
-      AutoComplete    =   True
-      AutoCorrect     =   True
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   31
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   156
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      Style           =   "1767954431"
-      TabOrder        =   18
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   1003
-      Type            =   0
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   327
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1291,53 +1442,10 @@ Begin WebPage WebPage1
       TabOrder        =   20
       Text            =   "医師氏名"
       TextAlign       =   0
-      Top             =   1030
+      Top             =   834
       VerticalCenter  =   0
       Visible         =   True
       Width           =   89
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebTextField write医師氏名Field
-      AutoCapitalize  =   True
-      AutoComplete    =   True
-      AutoCorrect     =   True
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   31
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   156
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      Style           =   "1767954431"
-      TabOrder        =   18
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   1044
-      Type            =   0
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   327
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1384,80 +1492,6 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebLabel Label22
-      Cursor          =   1
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   32
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   58
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Multiline       =   False
-      Scope           =   0
-      Style           =   "0"
-      TabOrder        =   16
-      Text            =   "メモ（コピーされません）"
-      TextAlign       =   0
-      Top             =   1070
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   166
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebTextArea writeメモArea1
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   138
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   55
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      ReadOnly        =   False
-      Scope           =   0
-      ScrollPosition  =   0
-      Style           =   "0"
-      TabOrder        =   23
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   766
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   418
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
    Begin WebLabel Label23
       Cursor          =   1
       Enabled         =   True
@@ -1466,7 +1500,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   55
+      Left            =   66
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1478,12 +1512,12 @@ Begin WebPage WebPage1
       Scope           =   0
       Style           =   "0"
       TabOrder        =   16
-      Text            =   "メモ（印刷されません）"
+      Text            =   "メモ（印刷、コピーされません）"
       TextAlign       =   0
-      Top             =   737
+      Top             =   878
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   169
+      Width           =   230
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1503,7 +1537,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   875
+      Left            =   883
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1514,117 +1548,7 @@ Begin WebPage WebPage1
       Scope           =   0
       Style           =   "1767954431"
       TabOrder        =   22
-      Top             =   922
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   349
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebTextArea View内容Area
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   151
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   485
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      ReadOnly        =   True
-      Scope           =   0
-      ScrollPosition  =   0
-      Style           =   "579897343"
-      TabOrder        =   23
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   766
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   966
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebTextArea writeメモArea2
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   151
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   63
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      ReadOnly        =   False
-      Scope           =   0
-      ScrollPosition  =   0
-      Style           =   "0"
-      TabOrder        =   23
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   1098
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   420
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebButton writeButton4
-      AutoDisable     =   False
-      Caption         =   "メモを修正"
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   40
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   58
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "1767954431"
-      TabOrder        =   22
-      Top             =   922
+      Top             =   1008
       VerticalCenter  =   0
       Visible         =   True
       Width           =   349
@@ -1640,13 +1564,13 @@ Begin WebPage WebPage1
    End
    Begin WebLink Link1
       Cursor          =   0
-      Enabled         =   True
+      Enabled         =   False
       HasFocusRing    =   True
       Height          =   22
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   998
+      Left            =   972
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1656,16 +1580,16 @@ Begin WebPage WebPage1
       LockVertical    =   False
       Multiline       =   False
       Scope           =   2
-      Style           =   "0"
+      Style           =   "403804159"
       TabOrder        =   24
       Target          =   1
       Text            =   "この紹介状を発行"
       TextAlign       =   0
-      Top             =   929
-      URL             =   "http://www.xojo.com/"
+      Top             =   1015
+      URL             =   ""
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   100
+      Width           =   195
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1689,7 +1613,7 @@ Begin WebPage WebPage1
       HorizontalCenter=   0
       Index           =   -2147483648
       InitialValue    =   "生理検査ID	生理検査日	右視力1	左視力1	矯正1	右視力2	左視力2	矯正2	色覚	右聴力	左聴力"
-      Left            =   58
+      Left            =   66
       ListIndex       =   -1
       LockBottom      =   False
       LockedInPosition=   False
@@ -1705,7 +1629,7 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   5
-      Top             =   1356
+      Top             =   1442
       VerticalCenter  =   0
       Visible         =   False
       Width           =   652
@@ -2272,6 +2196,40 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
+   Begin Container入力 Container入力1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   460
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   58
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "2019848191"
+      TabOrder        =   25
+      Top             =   1136
+      VerticalCenter  =   0
+      Visible         =   False
+      Width           =   1272
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
 End
 #tag EndWebPage
 
@@ -2406,6 +2364,8 @@ End
 		    Host = Session.Header("Host").split(":")
 		    // if 0 = 日本語英語 then
 		    Link1.URL="http://"+Host(0).DefineEncoding(Encodings.UTF8).ToText+"/template/mkpdf.php?use=紹介状&key="+紹介状ID
+		    Link1.Enabled=True
+		    Link1.Style=WebStyle150
 		    // else
 		    
 		    // end if
@@ -2786,6 +2746,26 @@ End
 
 #tag EndWindowCode
 
+#tag Events writeButton5
+	#tag Event
+		Sub Action()
+		  WebPage1.Container入力1.Visible=True
+		  Container入力1.Left=55
+		  Container入力1.Top=737
+		  
+		  
+		  Container入力1.write病院名Field.text= ""
+		  Container入力1.write受診科Field.text= ""
+		  Container入力1.write医師氏名Field.text= ""
+		  Container入力1.write内容Area.text= ""
+		  Container入力1.writeメモArea2.text= ""
+		  
+		  
+		  
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag Events furiganaField
 	#tag Event
 		Sub KeyPressed(Details As REALbasic.KeyEvent)
@@ -2914,83 +2894,6 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events writeButton1
-	#tag Event
-		Sub Action()
-		  var sql,id,furigana,精査要否 as String
-		  var rs as RowSet
-		  var rowcount as integer
-		  id = idField.text
-		  
-		  // 精査要否 = str(RadioGroup1.SelectedCell.Left)
-		  
-		  
-		  sql=_
-		  "INSERT INTO 紹介状 (学生番号,紹介状日,紹介医師,病院名,受診科,医師氏名,内容,メモ) VALUES "_
-		  +"('"_
-		  +writeField.text+"',"_
-		  +"curdate(),'"_
-		  +writeDoctorField.text+"','"_
-		  +write病院名Field.text+"','"_
-		  +write受診科Field.text+"','"_
-		  +write医師氏名Field.text+"','"_
-		  +replaceall(write内容Area.text,String.ChrByte(10),"\n")+"','"_
-		  +replaceall(writeメモArea2.text,String.ChrByte(10),"\n") _
-		  +"');"
-		  try
-		    rs =app.db.selectSQL(sql)
-		  Catch e as DatabaseException
-		    messagebox e.Message
-		  end try
-		  
-		  取得紹介状()
-		  
-		  
-		  
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events writeButton2
-	#tag Event
-		Sub Action()
-		  
-		  If ListBox紹介状.ListIndex < 0 Then
-		    MessageBox("リストから選択してください")
-		  Else
-		    
-		    write病院名Field.text= ListBox紹介状.Cell(ListBox紹介状.ListIndex, 3)
-		    write受診科Field.text= ListBox紹介状.Cell(ListBox紹介状.ListIndex, 4)
-		    write医師氏名Field.text= ListBox紹介状.Cell(ListBox紹介状.ListIndex, 5)
-		    write内容Area.text= replaceall(ListBox紹介状.Cell(ListBox紹介状.ListIndex, 6).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
-		    writeメモArea2.text= replaceall(ListBox紹介状.Cell(ListBox紹介状.ListIndex, 7).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
-		    
-		  End If
-		  
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events ListBox紹介状
-	#tag Event
-		Sub SelectionChanged()
-		  var test as string
-		  If Me.ListIndex < 0 Then
-		    // MessageBox("リストから選択してください")
-		  Else
-		    
-		    // write病院名Field.text= Me.Cell(Me.ListIndex, 3)
-		    // write受診科Field.text= Me.Cell(Me.ListIndex, 4)
-		    // write医師氏名Field.text= Me.Cell(Me.ListIndex, 5)
-		    test =Me.Cell(Me.ListIndex, 6).DefineEncoding(Encodings.UTF8)
-		    View内容Area.text= replaceall(Me.Cell(Me.ListIndex, 6).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
-		    writeメモArea1.text= replaceall(Me.Cell(Me.ListIndex, 7).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
-		    setlink()
-		  End If
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
 #tag Events writeButton4
 	#tag Event
 		Sub Action()
@@ -3026,19 +2929,48 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events ListBoxXP検査
+#tag Events writeButton2
+	#tag Event
+		Sub Action()
+		  WebPage1.Container入力1.Visible=True
+		  Container入力1.Left=55
+		  Container入力1.Top=737
+		  
+		  If ListBox紹介状.ListIndex < 0 Then
+		    MessageBox("リストから選択してください")
+		  Else
+		    
+		    Container入力1.write病院名Field.text= ListBox紹介状.Cell(ListBox紹介状.ListIndex, 3)
+		    Container入力1.write受診科Field.text= ListBox紹介状.Cell(ListBox紹介状.ListIndex, 4)
+		    Container入力1.write医師氏名Field.text= ListBox紹介状.Cell(ListBox紹介状.ListIndex, 5)
+		    Container入力1.write内容Area.text= replaceall(ListBox紹介状.Cell(ListBox紹介状.ListIndex, 6).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
+		    Container入力1.writeメモArea2.text= replaceall(ListBox紹介状.Cell(ListBox紹介状.ListIndex, 7).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
+		    
+		  End If
+		  
+		  
+		End Sub
+	#tag EndEvent
 #tag EndEvents
-#tag Events ListBox身長体重
-#tag EndEvents
-#tag Events ListBox血圧
-#tag EndEvents
-#tag Events ListBox尿検査
-#tag EndEvents
-#tag Events ListBox生理検査1
-#tag EndEvents
-#tag Events ListBox医師受診
-#tag EndEvents
-#tag Events ListBox既往歴
+#tag Events ListBox紹介状
+	#tag Event
+		Sub SelectionChanged()
+		  var test as string
+		  If Me.ListIndex < 0 Then
+		    // MessageBox("リストから選択してください")
+		  Else
+		    
+		    write病院名Field.text= Me.Cell(Me.ListIndex, 3)
+		    write受診科Field.text= Me.Cell(Me.ListIndex, 4)
+		    write医師氏名Field.text= Me.Cell(Me.ListIndex, 5)
+		    test =Me.Cell(Me.ListIndex, 6).DefineEncoding(Encodings.UTF8)
+		    View内容Area.text= replaceall(Me.Cell(Me.ListIndex, 6).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
+		    writeメモArea1.text= replaceall(Me.Cell(Me.ListIndex, 7).DefineEncoding(Encodings.UTF8),Encodings.UTF8.Chr(&h23CE),String.ChrByte(10))
+		    setlink()
+		  End If
+		  
+		End Sub
+	#tag EndEvent
 #tag EndEvents
 #tag ViewBehavior
 	#tag ViewProperty

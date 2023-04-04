@@ -2,7 +2,7 @@
 WebStyle NonEditArea
 Inherits WebStyle
 	#tag WebStyleStateGroup
-		misc-background=solid EBECFFFF
+		misc-background=solid D2CECEFF
 	#tag EndWebStyleStateGroup
 	#tag WebStyleStateGroup
 	#tag EndWebStyleStateGroup
