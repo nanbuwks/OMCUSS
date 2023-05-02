@@ -1,6 +1,60 @@
 #tag Class
 Protected Class Session
 Inherits WebSession
+	#tag Event
+		Sub Open()
+		  
+		  
+		  Var jsonFile As TextInputStream
+		  Var jsoncontents As String
+		  var f,dir as Folderitem
+		  dir = SpecialFolder.CurrentWorkingDirectory
+		  f = dir.Child("dbaccess.json")
+		  If Not( f.Exists ) Then
+		    MessageBox "dbaccess.json"+" が見つかりません。 "+dir.NativePath()+" にデータベースパラメータファイルを配置してください。"
+		  else
+		    jsonFile = TextInputStream.Open(f)
+		    jsonFile.Encoding = Encodings.UTF8
+		    jsoncontents = jsonFile.ReadAll
+		    jsonFile.Close
+		    
+		    dim j as new JSONItem(jsoncontents)
+		    App.db = New MySQLCommunityServer
+		    App.db.Host = j.value("host").StringValue
+		    App.db.UserName =j.value("user").StringValue
+		    App.db.Password = j.value("password").StringValue
+		    App.db.DatabaseName = j.value("database").StringValue
+		    
+		    Try
+		      App.db.Connect
+		      // proceed with database operations here..
+		    Catch error As DatabaseException
+		      MessageBox("The database couldn't be opened. Error: " + error.Message)
+		      Return
+		    End Try
+		    try
+		      App.db.SQLExecute("set names utf8 collate utf8_general_ci")
+		      App.db.SQLExecute("set character set utf8")
+		      //self.db.SQLExecute("set character_set_connection=utf8")
+		      //self.db.SQLExecute("set character_set_client=utf8")
+		      //self.db.SQLExecute("set character_set_server=utf8")
+		      //self.db.SQLExecute("set character_set_client=cp932")
+		      
+		      
+		      //self.db.SQLExecute("set character_set_results=CP932")
+		      App.db.SQLExecute("use test")
+		    Catch error as DatabaseException
+		      MessageBox error.Message
+		    end try
+		  end if
+		  'var id,furigana ,sql as String
+		  'var rs as RowSet
+		  
+		  WebPage初期入力.show
+		End Sub
+	#tag EndEvent
+
+
 	#tag Constant, Name = ErrorDialogCancel, Type = String, Dynamic = True, Default = \"Do Not Send", Scope = Public
 	#tag EndConstant
 

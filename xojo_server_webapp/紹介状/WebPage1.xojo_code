@@ -56,7 +56,7 @@ Begin WebPage WebPage1
       Scope           =   0
       Style           =   "0"
       TabOrder        =   16
-      Text            =   "（入力済みの紹介状の修正、削除はダッシュボード等から行ってください）"
+      Text            =   "（登録済みの紹介状の修正、削除はダッシュボード等から行ってください）"
       TextAlign       =   0
       Top             =   1070
       VerticalCenter  =   0
@@ -74,7 +74,7 @@ Begin WebPage WebPage1
    End
    Begin WebButton writeButton5
       AutoDisable     =   False
-      Caption         =   "新たに紹介状を作成"
+      Caption         =   "紹介状を作成"
       Cursor          =   0
       Enabled         =   True
       Height          =   40
@@ -763,207 +763,6 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebTextField writeNendoField
-      AutoCapitalize  =   True
-      AutoComplete    =   True
-      AutoCorrect     =   True
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   37
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   1369
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      Style           =   "1767954431"
-      TabOrder        =   15
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   15
-      Type            =   0
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   82
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebLabel Label5
-      Cursor          =   1
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   24
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   1312
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Multiline       =   False
-      Scope           =   0
-      Style           =   "1767954431"
-      TabOrder        =   17
-      Text            =   "年度"
-      TextAlign       =   0
-      Top             =   20
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   53
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebListBox ListBox医師候補
-      AlternateRowColor=   &cEDF3FE00
-      ColumnCount     =   1
-      ColumnWidths    =   "*"
-      Cursor          =   0
-      Enabled         =   True
-      HasHeading      =   False
-      HeaderStyle     =   "0"
-      Height          =   126
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      InitialValue    =   "診察医師名\n井崎 ゆみ子\n小山 壱也"
-      Left            =   1190
-      ListIndex       =   -1
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      MinimumRowHeight=   22
-      Multiline       =   False
-      PrimaryRowColor =   &cFFFFFF00
-      Scope           =   2
-      SelectionStyle  =   "0"
-      Style           =   "0"
-      TabOrder        =   19
-      Top             =   93
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   261
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebTextField writeDoctorField
-      AutoCapitalize  =   True
-      AutoComplete    =   True
-      AutoCorrect     =   True
-      CueText         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   33
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   1190
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      Style           =   "1767954431"
-      TabOrder        =   15
-      Text            =   ""
-      TextAlign       =   0
-      Top             =   55
-      Type            =   0
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   261
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebLabel Label10
-      Cursor          =   1
-      Enabled         =   True
-      HasFocusRing    =   True
-      Height          =   33
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   1190
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Multiline       =   False
-      Scope           =   0
-      Style           =   "1767954431"
-      TabOrder        =   20
-      Text            =   "診察医師名"
-      TextAlign       =   0
-      Top             =   15
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   102
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
    Begin WebLabel Label13
       Cursor          =   1
       Enabled         =   True
@@ -1273,7 +1072,7 @@ Begin WebPage WebPage1
    End
    Begin WebButton writeButton2
       AutoDisable     =   False
-      Caption         =   "この内容を元に新紹介状を作成"
+      Caption         =   "コピーして紹介状を作成"
       Cursor          =   0
       Enabled         =   True
       Height          =   40
@@ -1583,7 +1382,7 @@ Begin WebPage WebPage1
       Style           =   "403804159"
       TabOrder        =   24
       Target          =   1
-      Text            =   "この紹介状を発行"
+      Text            =   "この紹介状を再発行"
       TextAlign       =   0
       Top             =   1015
       URL             =   ""
@@ -2199,11 +1998,11 @@ Begin WebPage WebPage1
    Begin Container入力 Container入力1
       Cursor          =   0
       Enabled         =   True
-      Height          =   460
+      Height          =   820
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   58
+      Left            =   66
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -2215,10 +2014,44 @@ Begin WebPage WebPage1
       ScrollbarsVisible=   0
       Style           =   "2019848191"
       TabOrder        =   25
-      Top             =   1136
+      Top             =   1134
       VerticalCenter  =   0
       Visible         =   False
-      Width           =   1272
+      Width           =   1479
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
+      _VerticalPercent=   0.0
+   End
+   Begin Container初期入力 Container初期入力1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   227
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   1179
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      ScrollbarsVisible=   0
+      Style           =   "0"
+      TabOrder        =   26
+      Top             =   -22
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   344
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -2236,53 +2069,6 @@ End
 #tag WindowCode
 	#tag Event
 		Sub Shown()
-		  
-		  
-		  Var jsonFile As TextInputStream
-		  Var jsoncontents As String
-		  var f,dir as Folderitem
-		  dir = SpecialFolder.CurrentWorkingDirectory
-		  f = dir.Child("dbaccess.json")
-		  If Not( f.Exists ) Then
-		    MessageBox "dbaccess.json"+" が見つかりません。 "+dir.NativePath()+" にデータベースパラメータファイルを配置してください。"
-		  else
-		    jsonFile = TextInputStream.Open(f)
-		    jsonFile.Encoding = Encodings.UTF8
-		    jsoncontents = jsonFile.ReadAll
-		    jsonFile.Close
-		    
-		    dim j as new JSONItem(jsoncontents)
-		    App.db = New MySQLCommunityServer
-		    App.db.Host = j.value("host").StringValue
-		    App.db.UserName =j.value("user").StringValue
-		    App.db.Password = j.value("password").StringValue
-		    App.db.DatabaseName = j.value("database").StringValue
-		    
-		    Try
-		      App.db.Connect
-		      // proceed with database operations here..
-		    Catch error As DatabaseException
-		      MessageBox("The database couldn't be opened. Error: " + error.Message)
-		      Return
-		    End Try
-		    try
-		      App.db.SQLExecute("set names utf8 collate utf8_general_ci")
-		      App.db.SQLExecute("set character set utf8")
-		      //self.db.SQLExecute("set character_set_connection=utf8")
-		      //self.db.SQLExecute("set character_set_client=utf8")
-		      //self.db.SQLExecute("set character_set_server=utf8")
-		      //self.db.SQLExecute("set character_set_client=cp932")
-		      
-		      
-		      //self.db.SQLExecute("set character_set_results=CP932")
-		      App.db.SQLExecute("use test")
-		    Catch error as DatabaseException
-		      MessageBox error.Message
-		    end try
-		  end if
-		  'var id,furigana ,sql as String
-		  'var rs as RowSet
-		  
 		  
 		End Sub
 	#tag EndEvent
@@ -2661,34 +2447,6 @@ End
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub 取得候補医師()
-		  
-		  var id,furigana ,sql as String
-		  var rs as RowSet
-		  id = idField.text
-		  furigana = furiganaField.text
-		  
-		  try
-		    sql = "SELECT 診察医師名 FROM `医師受診` WHERE 年度取得(医師受診日) LIKE "+writeNendoField.Text+"  GROUP BY 診察医師名 ;"
-		    rs =app.db.SelectSQL(sql)
-		    
-		  Catch e as DatabaseException
-		    messagebox e.Message
-		  end try
-		  Listbox医師候補.DeleteAllRows
-		  
-		  try
-		    for each row as databaserow in rs
-		      Listbox医師候補.AddRow(  row.column("診察医師名").StringValue)
-		      
-		    next
-		  Catch e as DatabaseException
-		    messagebox e.Message
-		  end try
-		End Sub
-	#tag EndMethod
-
-	#tag Method, Flags = &h0
 		Sub 取得紹介状()
 		  
 		  var id,sql as String
@@ -2858,38 +2616,6 @@ End
 		  Shell1.ExecuteMode = Shell.ExecuteModes.Asynchronous
 		  Shell1.TimeOut = -1 // for Windows
 		  Shell1.Execute("python3 /home/pi/read_once_with_key_LCD_onlyID.py 4")
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events writeNendoField
-	#tag Event
-		Sub KeyPressed(Details As REALbasic.KeyEvent)
-		  Select Case details.KeyCode
-		  Case details.KeyEnter
-		    writeNendoField.text=onlynumber(writeNendoField.text)
-		    取得候補医師()
-		  End Select
-		  
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events ListBox医師候補
-	#tag Event
-		Sub Shown()
-		  // 医師リスト取得()
-		End Sub
-	#tag EndEvent
-	#tag Event
-		Sub SelectionChanged()
-		  Var id,furigana,name,birth,sex As String
-		  If Me.ListIndex < 0 Then
-		    // MessageBox("リストから選択してください")
-		  Else
-		    id = Me.Cell(Me.ListIndex, 0)
-		    writeDoctorField.text=id
-		  End If
-		  
 		  
 		End Sub
 	#tag EndEvent

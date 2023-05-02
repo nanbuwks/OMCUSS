@@ -3,7 +3,7 @@ Begin WebContainer Container入力
    Compatibility   =   ""
    Cursor          =   0
    Enabled         =   True
-   Height          =   466
+   Height          =   794
    HelpTag         =   ""
    HorizontalCenter=   0
    Index           =   -2147483648
@@ -20,7 +20,7 @@ Begin WebContainer Container入力
    Top             =   0
    VerticalCenter  =   0
    Visible         =   True
-   Width           =   1300
+   Width           =   1474
    ZIndex          =   1
    _DeclareLineRendered=   False
    _HorizontalPercent=   0.0
@@ -31,6 +31,39 @@ Begin WebContainer Container入力
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
+   Begin WebHTMLViewer HTMLViewer1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   729
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   906
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   24
+      Top             =   45
+      URL             =   ""
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   500
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
    Begin WebLabel Label25
       Cursor          =   1
       Enabled         =   True
@@ -39,7 +72,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   79
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -53,7 +86,7 @@ Begin WebContainer Container入力
       TabOrder        =   20
       Text            =   "病院名"
       TextAlign       =   0
-      Top             =   75
+      Top             =   54
       VerticalCenter  =   0
       Visible         =   True
       Width           =   73
@@ -75,7 +108,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   384
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -89,7 +122,7 @@ Begin WebContainer Container入力
       TabOrder        =   20
       Text            =   "受診科"
       TextAlign       =   0
-      Top             =   115
+      Top             =   54
       VerticalCenter  =   0
       Visible         =   True
       Width           =   73
@@ -111,7 +144,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   651
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -125,7 +158,7 @@ Begin WebContainer Container入力
       TabOrder        =   20
       Text            =   "医師氏名"
       TextAlign       =   0
-      Top             =   155
+      Top             =   54
       VerticalCenter  =   0
       Visible         =   True
       Width           =   89
@@ -147,7 +180,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   79
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -161,7 +194,7 @@ Begin WebContainer Container入力
       TabOrder        =   16
       Text            =   "メモ（印刷されません）"
       TextAlign       =   0
-      Top             =   195
+      Top             =   629
       VerticalCenter  =   0
       Visible         =   True
       Width           =   166
@@ -180,11 +213,11 @@ Begin WebContainer Container入力
       Cursor          =   0
       Enabled         =   True
       HasFocusRing    =   True
-      Height          =   166
+      Height          =   38
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   79
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -199,10 +232,10 @@ Begin WebContainer Container入力
       TabOrder        =   23
       Text            =   ""
       TextAlign       =   0
-      Top             =   219
+      Top             =   657
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   425
+      Width           =   792
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -225,7 +258,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   118
+      Left            =   651
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -241,11 +274,11 @@ Begin WebContainer Container入力
       TabOrder        =   18
       Text            =   ""
       TextAlign       =   0
-      Top             =   169
+      Top             =   99
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   327
+      Width           =   243
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -268,7 +301,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   118
+      Left            =   384
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -284,11 +317,11 @@ Begin WebContainer Container入力
       TabOrder        =   18
       Text            =   ""
       TextAlign       =   0
-      Top             =   128
+      Top             =   99
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   327
+      Width           =   255
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -311,7 +344,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   118
+      Left            =   79
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -327,11 +360,11 @@ Begin WebContainer Container入力
       TabOrder        =   18
       Text            =   ""
       TextAlign       =   0
-      Top             =   88
+      Top             =   99
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   327
+      Width           =   293
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -347,11 +380,11 @@ Begin WebContainer Container入力
       Cursor          =   0
       Enabled         =   True
       HasFocusRing    =   True
-      Height          =   397
+      Height          =   445
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   464
+      Left            =   79
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -366,10 +399,10 @@ Begin WebContainer Container入力
       TabOrder        =   23
       Text            =   ""
       TextAlign       =   0
-      Top             =   33
+      Top             =   186
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   794
+      Width           =   808
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -380,16 +413,16 @@ Begin WebContainer Container入力
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebButton writeButton1
+   Begin WebButton Button登録
       AutoDisable     =   False
-      Caption         =   "紹介状登録"
+      Caption         =   "登録して印刷画面へ"
       Cursor          =   0
       Enabled         =   True
       Height          =   43
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   79
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -400,7 +433,7 @@ Begin WebContainer Container入力
       Scope           =   0
       Style           =   "1767954431"
       TabOrder        =   19
-      Top             =   403
+      Top             =   707
       VerticalCenter  =   0
       Visible         =   True
       Width           =   200
@@ -422,7 +455,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   457
+      Left            =   79
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -436,7 +469,7 @@ Begin WebContainer Container入力
       TabOrder        =   16
       Text            =   "内容"
       TextAlign       =   0
-      Top             =   7
+      Top             =   142
       VerticalCenter  =   0
       Visible         =   True
       Width           =   166
@@ -459,7 +492,7 @@ Begin WebContainer Container入力
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   20
+      Left            =   79
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -484,13 +517,47 @@ Begin WebContainer Container入力
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
+   Begin WebButton Buttonプレビュー
+      AutoDisable     =   False
+      Caption         =   "プレビュー"
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   43
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   671
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      Style           =   "1767954431"
+      TabOrder        =   19
+      Top             =   707
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   200
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
 End
 #tag EndWebPage
 
 #tag WindowCode
 #tag EndWindowCode
 
-#tag Events writeButton1
+#tag Events Button登録
 	#tag Event
 		Sub Action()
 		  var sql,id,furigana,精査要否 as String
@@ -506,7 +573,7 @@ End
 		  +"('"_
 		  +WebPage1.writeField.text+"',"_
 		  +"curdate(),'"_
-		  +WebPage1.writeDoctorField.text+"','"_
+		  +WebPage1.Container初期入力1.writeDoctorField.text+"','"_
 		  +write病院名Field.text+"','"_
 		  +write受診科Field.text+"','"_
 		  +write医師氏名Field.text+"','"_
@@ -533,6 +600,69 @@ End
 		Sub Action()
 		  
 		  WebPage1.Container入力1.Visible=False
+		  
+		  
+		  
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events Buttonプレビュー
+	#tag Event
+		Sub Action()
+		  var sql,id,furigana,精査要否 as String
+		  var rs as RowSet
+		  var rowcount as integer
+		  var Host(),紹介状ID as String
+		  Dim url As String
+		  
+		  id = WebPage1.idField.text
+		  
+		  // 精査要否 = str(RadioGroup1.SelectedCell.Left)
+		  
+		  
+		  sql=_
+		  "INSERT INTO 紹介状プレビュー (学生番号,紹介状日,紹介医師,病院名,受診科,医師氏名,内容,メモ) VALUES "_
+		  +"('"_
+		  +WebPage1.writeField.text+"',"_
+		  +"curdate(),'"_
+		  +WebPage1.Container初期入力1.writeDoctorField.Text+"','"_
+		  +write病院名Field.text+"','"_
+		  +write受診科Field.text+"','"_
+		  +write医師氏名Field.text+"','"_
+		  +replaceall(write内容Area.text,String.ChrByte(10),"\n")+"','"_
+		  +replaceall(writeメモArea2.text,String.ChrByte(10),"\n") _
+		  +"');"
+		  try
+		    rs =app.db.selectSQL(sql)
+		  Catch e as DatabaseException
+		    messagebox e.Message
+		  end try
+		  
+		  
+		  sql="SELECT LAST_INSERT_ID();"
+		  try
+		    rs =app.db.selectSQL(sql)
+		  Catch e as DatabaseException
+		    messagebox e.Message
+		  end try
+		  try
+		    for each row as databaserow in rs
+		      紹介状ID = row.column("LAST_INSERT_ID()").StringValue
+		    next
+		  Catch e as DatabaseException
+		    messagebox e.Message
+		  end try
+		  Host = Session.Header("Host").split(":")
+		  // if 0 = 日本語英語 then
+		  url="http://"+Host(0).DefineEncoding(Encodings.UTF8).ToText+"/template/mkpreview.php?use=紹介状&key="+紹介状ID+"#toolbar=0&view=FitV"
+		  // url="http://192.168.162.139/template/mkpreview.php?use=紹介状&key="+紹介状ID+"#toolbar=0&view=FitV"
+		  // MsgBox(url)
+		  HTMLViewer1.URL = url
+		  // else
+		  
+		  // end if
+		  
 		  
 		  
 		  
