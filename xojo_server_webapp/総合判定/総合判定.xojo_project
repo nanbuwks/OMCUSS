@@ -4,6 +4,7 @@ MinIDEVersion=20110400
 OrigIDEVersion=20190320
 Class=App;App.xojo_code;&h000000007982A7FF;&h0000000000000000;false
 WebSession=Session;Session.xojo_code;&h000000001EF4EFFF;&h0000000000000000;false
+WebView=Container編集;Container編集.xojo_code;&h000000005C607FFF;&h0000000000000000;false
 WebView=WebPage1;WebPage1.xojo_code;&h00000000381377FF;&h0000000000000000;false
 BuildSteps=Build Automation;Build Automation.xojo_code;&h000000001B42FFFF;&h0000000000000000;false
 WebStyle=WebStyle150;WebStyle150.xojo_code;&h000000006960D7FF;&h0000000000000000;false

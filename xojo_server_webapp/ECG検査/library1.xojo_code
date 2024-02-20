@@ -72,7 +72,7 @@ End
 		Function zenhankanafix(zenString as string) As String
 		  Var result As String
 		  result = zenString
-		  result = result.ReplaceAll("␣", " ")
+		  result = result.ReplaceAll("　", " ")
 		  result = result.ReplaceAll("１", "1")
 		  result = result.ReplaceAll("２", "2")
 		  result = result.ReplaceAll("３", "3")

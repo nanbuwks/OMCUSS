@@ -5,6 +5,10 @@ Inherits WebApplication
 		db As MySQLCommunityServer
 	#tag EndProperty
 
+	#tag Property, Flags = &h0
+		userofGetParamater As String
+	#tag EndProperty
+
 
 	#tag ViewBehavior
 	#tag EndViewBehavior

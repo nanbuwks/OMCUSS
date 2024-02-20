@@ -1725,6 +1725,7 @@ End
 		  ListBox生理検査.DeleteAllRows
 		  ListBox尿検査.DeleteAllRows
 		  ListBox医師受診.DeleteAllRows
+		  ListBoxXP検査.DeleteAllRows
 		  
 		End Sub
 	#tag EndMethod

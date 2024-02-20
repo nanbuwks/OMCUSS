@@ -902,7 +902,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   52
+      Left            =   58
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -916,7 +916,7 @@ Begin WebPage WebPage1
       TabOrder        =   20
       Text            =   "総合判定"
       TextAlign       =   0
-      Top             =   591
+      Top             =   600
       VerticalCenter  =   0
       Visible         =   True
       Width           =   148
@@ -942,7 +942,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   52
+      Left            =   58
       LimitText       =   0
       LockBottom      =   False
       LockedInPosition=   False
@@ -958,7 +958,7 @@ Begin WebPage WebPage1
       TabOrder        =   18
       Text            =   ""
       TextAlign       =   0
-      Top             =   641
+      Top             =   650
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -1025,7 +1025,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   58
+      Left            =   64
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1036,7 +1036,7 @@ Begin WebPage WebPage1
       Scope           =   0
       Style           =   "900595711"
       TabOrder        =   19
-      Top             =   699
+      Top             =   708
       VerticalCenter  =   0
       Visible         =   True
       Width           =   200
@@ -1248,7 +1248,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   1049
+      Left            =   1251
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1262,7 +1262,7 @@ Begin WebPage WebPage1
       TabOrder        =   16
       Text            =   "既往歴"
       TextAlign       =   0
-      Top             =   441
+      Top             =   350
       VerticalCenter  =   0
       Visible         =   True
       Width           =   120
@@ -1284,7 +1284,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   58
+      Left            =   1090
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1298,7 +1298,7 @@ Begin WebPage WebPage1
       TabOrder        =   16
       Text            =   "生理検査"
       TextAlign       =   0
-      Top             =   359
+      Top             =   270
       VerticalCenter  =   0
       Visible         =   True
       Width           =   120
@@ -1320,7 +1320,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   58
+      Left            =   607
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1334,7 +1334,7 @@ Begin WebPage WebPage1
       TabOrder        =   16
       Text            =   "医師受診"
       TextAlign       =   0
-      Top             =   441
+      Top             =   465
       VerticalCenter  =   0
       Visible         =   True
       Width           =   120
@@ -1356,7 +1356,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   729
+      Left            =   607
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1428,7 +1428,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   401
+      Left            =   348
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1464,7 +1464,7 @@ Begin WebPage WebPage1
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   729
+      Left            =   607
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1478,7 +1478,7 @@ Begin WebPage WebPage1
       TabOrder        =   16
       Text            =   "XP検査"
       TextAlign       =   0
-      Top             =   359
+      Top             =   350
       VerticalCenter  =   0
       Visible         =   True
       Width           =   120
@@ -1524,7 +1524,7 @@ Begin WebPage WebPage1
       Top             =   301
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   332
+      Width           =   281
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1548,7 +1548,7 @@ Begin WebPage WebPage1
       HorizontalCenter=   0
       Index           =   -2147483648
       InitialValue    =   "血圧ID	血圧日	血圧	脈拍	再検"
-      Left            =   401
+      Left            =   348
       ListIndex       =   -1
       LockBottom      =   False
       LockedInPosition=   False
@@ -1567,7 +1567,7 @@ Begin WebPage WebPage1
       Top             =   301
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   313
+      Width           =   253
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1591,7 +1591,7 @@ Begin WebPage WebPage1
       HorizontalCenter=   0
       Index           =   -2147483648
       InitialValue    =   "尿検査ID	尿検査日	ph	 蛋白	潜血	糖	ウロビリ	生理有無	早朝尿	尿再検"
-      Left            =   731
+      Left            =   609
       ListIndex       =   -1
       LockBottom      =   False
       LockedInPosition=   False
@@ -1610,7 +1610,7 @@ Begin WebPage WebPage1
       Top             =   301
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   633
+      Width           =   477
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1634,7 +1634,7 @@ Begin WebPage WebPage1
       HorizontalCenter=   0
       Index           =   -2147483648
       InitialValue    =   "生理検査ID	生理検査日	右視力1	左視力1	矯正1	右視力2	左視力2	矯正2	色覚	右聴力	左聴力"
-      Left            =   58
+      Left            =   1098
       ListIndex       =   -1
       LockBottom      =   False
       LockedInPosition=   False
@@ -1650,10 +1650,10 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   5
-      Top             =   384
+      Top             =   301
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   652
+      Width           =   474
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1672,12 +1672,12 @@ Begin WebPage WebPage1
       Enabled         =   True
       HasHeading      =   True
       HeaderStyle     =   "0"
-      Height          =   55
+      Height          =   94
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
       InitialValue    =   "XP検査ID	XP検査日	フィルムNO	判読	矯正1	右視力2	左視力2	矯正2	色覚	右聴力	左聴力"
-      Left            =   729
+      Left            =   607
       ListIndex       =   -1
       LockBottom      =   False
       LockedInPosition=   False
@@ -1693,7 +1693,7 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   5
-      Top             =   384
+      Top             =   374
       VerticalCenter  =   0
       Visible         =   True
       Width           =   633
@@ -1720,7 +1720,7 @@ Begin WebPage WebPage1
       HorizontalCenter=   0
       Index           =   -2147483648
       InitialValue    =   "医師受診ID	医師受診日	診察医師名	診察所見	精査要否"
-      Left            =   58
+      Left            =   607
       ListIndex       =   -1
       LockBottom      =   False
       LockedInPosition=   False
@@ -1736,10 +1736,10 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   6
-      Top             =   465
+      Top             =   488
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   985
+      Width           =   951
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1763,7 +1763,7 @@ Begin WebPage WebPage1
       HorizontalCenter=   0
       Index           =   -2147483648
       InitialValue    =   "既往歴ID	 年度	発症年齢	既往病名"
-      Left            =   1049
+      Left            =   1251
       ListIndex       =   -1
       LockBottom      =   False
       LockedInPosition=   False
@@ -1779,7 +1779,7 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   5
-      Top             =   465
+      Top             =   374
       VerticalCenter  =   0
       Visible         =   True
       Width           =   315
@@ -1791,6 +1791,198 @@ Begin WebPage WebPage1
       _NeedsRendering =   True
       _OfficialControl=   False
       _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebListBox ListBoxメモ
+      AlternateRowColor=   &cEDF3FE00
+      ColumnCount     =   5
+      ColumnWidths    =   "0%,20%,10%,60%,10%"
+      Cursor          =   0
+      Enabled         =   True
+      HasHeading      =   True
+      HeaderStyle     =   "0"
+      Height          =   146
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      InitialValue    =   "メモID	メモ日	記入者	内容	済"
+      Left            =   58
+      ListIndex       =   -1
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      MinimumRowHeight=   22
+      Multiline       =   False
+      PrimaryRowColor =   &cFFFFFF00
+      Scope           =   0
+      SelectionStyle  =   "0"
+      Style           =   "0"
+      TabOrder        =   6
+      Top             =   375
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   534
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebLabel Label25
+      Cursor          =   1
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   26
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   61
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Multiline       =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   16
+      Text            =   "メモ"
+      TextAlign       =   0
+      Top             =   350
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   44
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebTextField writeメモField
+      AutoCapitalize  =   True
+      AutoComplete    =   True
+      AutoCorrect     =   True
+      CueText         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      HasFocusRing    =   True
+      Height          =   31
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   58
+      LimitText       =   0
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Password        =   False
+      ReadOnly        =   False
+      Scope           =   0
+      Style           =   "1767954431"
+      TabOrder        =   18
+      Text            =   ""
+      TextAlign       =   0
+      Top             =   533
+      Type            =   0
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   322
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton writeButton2
+      AutoDisable     =   False
+      Caption         =   "メモ登録"
+      Cursor          =   0
+      Enabled         =   False
+      Height          =   55
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   395
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      Style           =   "900595711"
+      TabOrder        =   19
+      Top             =   533
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   200
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin Container編集 Container編集1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   453
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   632
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      ScrollbarsVisible=   0
+      startleft       =   0
+      starttop        =   0
+      Style           =   "0"
+      TabOrder        =   23
+      Top             =   996
+      VerticalCenter  =   0
+      Visible         =   False
+      Width           =   784
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _ShownEventFired=   False
       _VerticalPercent=   0.0
    End
 End
@@ -1872,6 +2064,12 @@ End
 		  end try
 		  取得候補医師()
 		  
+		  WebPage1.Container編集1.starttop=WebPage1.Container編集1.Top
+		  WebPage1.Container編集1.startleft=WebPage1.Container編集1.Left
+		  
+		  if "Admin"  = App.userofGetParamater Then
+		    modeAdmin=True
+		  End if
 		End Sub
 	#tag EndEvent
 
@@ -2188,7 +2386,9 @@ End
 		  ListBox既往歴.DeleteAllRows
 		  ListBox医師受診.DeleteAllRows
 		  ListBox総合判定.DeleteAllRows
-		  
+		  ListBoxXP検査.DeleteAllRows
+		  ListBox生理検査.DeleteAllRows
+		  ListBoxメモ.DeleteAllRows
 		End Sub
 	#tag EndMethod
 
@@ -2217,7 +2417,43 @@ End
 		  ListBox尿検査.DeleteAllRows
 		  ListBox医師受診.DeleteAllRows
 		  ListBox総合判定.DeleteAllRows
+		  ListBoxXP検査.DeleteAllRows
+		  ListBox生理検査.DeleteAllRows
 		  
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 取得メモ()
+		  
+		  var id,sql as String
+		  var rs as RowSet
+		  id = writeField.text
+		  
+		  try
+		    sql = "SELECT メモID,DATE_FORMAT(メモ日, '%Y/%m/%d') AS メモ日,記入者,内容,済" _
+		    +" FROM メモ where 学生番号 = '"+id+"' order by メモ日 desc"
+		    rs =app.db.SelectSQL(sql)
+		    
+		  Catch e as DatabaseException
+		    messagebox e.Message
+		  end try
+		  Listboxメモ.DeleteAllRows
+		  
+		  try
+		    for each row as databaserow in rs
+		      
+		      Listboxメモ.AddRow(  row.column("メモID").StringValue _
+		      ,row.column("メモ日").StringValue _
+		      ,row.column("記入者").StringValue _
+		      ,row.column("内容").StringValue _
+		      ,row.column("済").StringValue)
+		      
+		    next
+		  Catch e as DatabaseException
+		    messagebox e.Message
+		  end try
 		End Sub
 	#tag EndMethod
 
@@ -2320,6 +2556,130 @@ End
 		End Sub
 	#tag EndMethod
 
+	#tag Method, Flags = &h0
+		Sub 編集ControlWebMenuItem(WLB As WebListBox, Item As WebMenuItem)
+		  Select Case Item.Text
+		  Case "追加"
+		    編集Controlビュー作成(WLB,"追加")
+		    Container編集1.データ取得("追加")
+		    Container編集1.画面作成("追加")
+		    編集画面表示(1)
+		  Case "詳細"
+		    Container編集1.データ取得("詳細")
+		    Container編集1.画面作成("詳細")
+		    編集画面表示(1)
+		  Case "編集"
+		    Container編集1.データ取得("詳細")
+		    Container編集1.画面作成("編集")
+		    編集画面表示(1)
+		  End Select
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 編集Controlビュー作成(WLB as WebListBox, 処理 as String)
+		  Var ID as String
+		  // Cotainer編集1.Listbox編集および学生番号、テーブル名、キー名、IDをセット
+		  if (処理="詳細" and WLB.ListIndex < 0)Then
+		    MessageBox("リストから選択してください")
+		  Else
+		    Container編集1.Label編集学生番号.Text = writeField.text
+		    Container編集1.Label編集テーブル名.text=WLB.Heading(0).Left(WLB.Heading(0).Length-2)
+		    Container編集1.Label編集キー名.Text=WLB.Heading(0)
+		    if (処理="詳細" ) Then
+		      ID = WLB.Cell(WLB.ListIndex, 0)
+		      Container編集1.Label編集ID.Text =ID
+		    end
+		    
+		    Container編集1.Listbox編集.ColumnCount=WLB.ColumnCount
+		    Container編集1.Listbox編集.ColumnWidths=WLB.ColumnWidths
+		    Container編集1.Listbox編集.DeleteAllRows()
+		    Container編集1.Listbox編集.AddRow()
+		    
+		    Var i As Integer
+		    For i = 0 To WLB.ColumnCount-1
+		      // テーブルフィールド名情報を複写
+		      Container編集1.Listbox編集.Heading(i) = WLB.Heading(i)
+		      // 編集対象レコードの各フィールド内容およびスタイルを複写
+		      if ("詳細" = 処理) then
+		        Container編集1.Listbox編集.Cell(0,i)=WLB.Cell(WLB.ListIndex,i)
+		        Container編集1.Listbox編集.CellStyle(0,i)=WLB.CellStyle(WLB.ListIndex,i)
+		      end
+		    Next
+		    Container編集1.データ取得(処理)
+		    Container編集1.画面作成("詳細")
+		    // 編集画面表示(0)
+		  end if
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 編集画面表示(表示 as Integer)
+		  
+		  // 1... 画面中央に表示 0...初期位置に表示 それ以外(-1)...非表示
+		  if (1=表示) then 
+		    Container編集1.Top=300
+		    Container編集1.Left=300
+		    Container編集1.Visible=True
+		  elseif (0=表示) then
+		    Container編集1.Visible=True
+		    WebPage1.Container編集1.Top=WebPage1.Container編集1.starttop
+		    WebPage1.Container編集1.Left=WebPage1.Container編集1.startleft
+		    WebPage1.Container編集1.ButtonOK.Visible=False
+		    WebPage1.Container編集1.Buttonキャンセル.Visible=False
+		    WebPage1.Container編集1.Button編集.Visible=False
+		    WebPage1.Container編集1.Button修正.Visible=False
+		    WebPage1.Container編集1.Button削除.Visible=False
+		    WebPage1.Container編集1.Button追加.Visible=False
+		    WebPage1.Container編集1.RectangleREDBG.Visible=False
+		  else  // -1 など
+		    Container編集1.Visible=False
+		    WebPage1.Container編集1.Top=WebPage1.Container編集1.starttop
+		    WebPage1.Container編集1.Left=WebPage1.Container編集1.startleft
+		    WebPage1.Container編集1.ButtonOK.Visible=False
+		    WebPage1.Container編集1.Buttonキャンセル.Visible=False
+		    WebPage1.Container編集1.Button編集.Visible=False
+		    WebPage1.Container編集1.Button修正.Visible=False
+		    WebPage1.Container編集1.Button削除.Visible=False
+		    WebPage1.Container編集1.Button追加.Visible=False
+		    WebPage1.Container編集1.RectangleREDBG.Visible=False
+		  end if
+		  
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub 表示更新()
+		  library1.取得既往歴()
+		  library1.取得医師受診()
+		  library1.取得身長体重()
+		  library1.取得血圧()
+		  library1.取得尿検査()
+		  library1.取得XP検査()
+		  library1.取得生理検査()
+		  取得メモ()
+		  //取得ECG検査()
+		  //取得問診票既往()
+		  //取得問診票症状()
+		  //取得問診票診断()
+		  //取得抗体価()
+		  //取得HBs抗体()
+		  //取得末血検査()
+		  //取得採血()
+		  //取得総合判定()
+		  //取得紹介状()
+		  //取得塩分量()
+		  //取得その他検査()
+		End Sub
+	#tag EndMethod
+
+
+	#tag Property, Flags = &h0
+		modeAdmin As Boolean
+	#tag EndProperty
+
 
 #tag EndWindowCode
 
@@ -2339,6 +2699,7 @@ End
 		Sub Action()
 		  
 		  フィールドクリア()
+		  編集画面表示(-1)
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2393,6 +2754,8 @@ End
 		    library1.取得生理検査()
 		    library1.取得XP検査()
 		    取得総合判定()
+		    取得メモ()
+		    
 		    //setlink()
 		  end
 		  
@@ -2548,6 +2911,82 @@ End
 		    writeButton1.Style=WebStyle150GrayOut
 		    writeButton1.Enabled=False
 		  End If
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events ListBoxメモ
+	#tag Event
+		Sub Shown()
+		  Var menu As New WebMenuitem
+		  // Adminモードでなくても「追加」できる
+		  menu.Append(New WebMenuItem("追加"))
+		  menu.Append(New WebMenuItem("詳細"))
+		  // Adminモードでなくても「編集」できる
+		  menu.Append(New WebMenuItem("編集"))
+		  menu.Append(New WebMenuItem("キャンセル"))
+		  Me.ContextualMenu = menu
+		  dim hitItem as WebMenuItem
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub SelectionChanged()
+		  If 0 <= Me.ListIndex Then
+		    編集Controlビュー作成(Me,"詳細")
+		  end
+		  
+		End Sub
+	#tag EndEvent
+	#tag Event
+		Sub ContextualMenuAction(Item As WebMenuItem)
+		  編集ControlWebMenuItem(Me,Item)
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events writeメモField
+	#tag Event
+		Sub TextChanged()
+		  If 0 < writeメモField.Text.Length Then 
+		    writeButton2.Style=WebStyle150
+		    writeButton2.Enabled=True
+		  Else
+		    writeButton2.Style=WebStyle150GrayOut
+		    writeButton2.Enabled=False
+		  End If
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events writeButton2
+	#tag Event
+		Sub Action()
+		  var sql,id,furigana,精査要否 as String
+		  var rs as RowSet
+		  var rowcount as integer
+		  id = idField.text
+		  
+		  // 精査要否 = str(RadioGroup1.SelectedCell.Left)
+		  
+		  
+		  sql=_
+		  "INSERT INTO メモ (学生番号,メモ日,記入者,内容) VALUES "_
+		  +"('"_
+		  +writeField.text+"',"_
+		  +"curdate(),'"_
+		  +writeDoctorField.text+"','"_
+		  +writeメモField.text+"');"
+		  try
+		    rs =app.db.selectSQL(sql)
+		  Catch e as DatabaseException
+		    messagebox e.Message
+		  end try
+		  
+		  writeメモField.text=""
+		  
+		  
+		  取得メモ()
+		  
+		  
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -2854,6 +3293,14 @@ End
 		Group="Behavior"
 		InitialValue=""
 		Type="Double"
+		EditorType=""
+	#tag EndViewProperty
+	#tag ViewProperty
+		Name="modeAdmin"
+		Visible=false
+		Group="Behavior"
+		InitialValue=""
+		Type="Boolean"
 		EditorType=""
 	#tag EndViewProperty
 #tag EndViewBehavior

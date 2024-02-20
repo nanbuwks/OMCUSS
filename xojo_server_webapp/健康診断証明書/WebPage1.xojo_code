@@ -36,6 +36,72 @@ Begin WebPage WebPage1
    _OpenEventFired =   False
    _ShownEventFired=   False
    _VerticalPercent=   0.0
+   Begin WebRectangle Rectangle1
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   74
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   91
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   0
+      Style           =   "0"
+      TabOrder        =   -1
+      Top             =   665
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   403
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
+   Begin WebButton Button1
+      AutoDisable     =   False
+      Caption         =   ""
+      Cursor          =   0
+      Enabled         =   True
+      Height          =   51
+      HelpTag         =   ""
+      HorizontalCenter=   0
+      Index           =   -2147483648
+      Left            =   131
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockHorizontal  =   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      LockVertical    =   False
+      Scope           =   2
+      Style           =   "0"
+      TabOrder        =   21
+      Top             =   677
+      VerticalCenter  =   0
+      Visible         =   True
+      Width           =   119
+      ZIndex          =   1
+      _DeclareLineRendered=   False
+      _HorizontalPercent=   0.0
+      _IsEmbedded     =   False
+      _Locked         =   False
+      _NeedsRendering =   True
+      _OfficialControl=   False
+      _OpenEventFired =   False
+      _VerticalPercent=   0.0
+   End
    Begin WebTextField furiganaField
       AutoCapitalize  =   True
       AutoComplete    =   True
@@ -64,7 +130,7 @@ Begin WebPage WebPage1
       TabOrder        =   2
       Text            =   ""
       TextAlign       =   0
-      Top             =   27
+      Top             =   13
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -99,7 +165,7 @@ Begin WebPage WebPage1
       Scope           =   0
       Style           =   "0"
       TabOrder        =   3
-      Top             =   27
+      Top             =   13
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -135,7 +201,7 @@ Begin WebPage WebPage1
       TabOrder        =   7
       Text            =   "学生番号"
       TextAlign       =   0
-      Top             =   27
+      Top             =   13
       VerticalCenter  =   0
       Visible         =   True
       Width           =   100
@@ -171,7 +237,7 @@ Begin WebPage WebPage1
       TabOrder        =   8
       Text            =   "フリガナ"
       TextAlign       =   0
-      Top             =   27
+      Top             =   13
       VerticalCenter  =   0
       Visible         =   True
       Width           =   67
@@ -213,7 +279,7 @@ Begin WebPage WebPage1
       TabOrder        =   3
       Text            =   ""
       TextAlign       =   0
-      Top             =   27
+      Top             =   13
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -257,7 +323,7 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   5
-      Top             =   61
+      Top             =   47
       VerticalCenter  =   0
       Visible         =   True
       Width           =   1314
@@ -443,7 +509,7 @@ Begin WebPage WebPage1
       Scope           =   0
       Style           =   "0"
       TabOrder        =   13
-      Top             =   222
+      Top             =   208
       VerticalCenter  =   0
       Visible         =   True
       Width           =   133
@@ -485,7 +551,7 @@ Begin WebPage WebPage1
       TabOrder        =   1
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -528,7 +594,7 @@ Begin WebPage WebPage1
       TabOrder        =   15
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -571,7 +637,7 @@ Begin WebPage WebPage1
       TabOrder        =   15
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -614,7 +680,7 @@ Begin WebPage WebPage1
       TabOrder        =   15
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -657,7 +723,7 @@ Begin WebPage WebPage1
       TabOrder        =   15
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -700,7 +766,7 @@ Begin WebPage WebPage1
       TabOrder        =   15
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -743,7 +809,7 @@ Begin WebPage WebPage1
       TabOrder        =   15
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -786,7 +852,7 @@ Begin WebPage WebPage1
       TabOrder        =   15
       Text            =   ""
       TextAlign       =   0
-      Top             =   228
+      Top             =   214
       Type            =   0
       VerticalCenter  =   0
       Visible         =   True
@@ -859,7 +925,7 @@ Begin WebPage WebPage1
       TabOrder        =   16
       Text            =   "身長体重"
       TextAlign       =   0
-      Top             =   262
+      Top             =   245
       VerticalCenter  =   0
       Visible         =   True
       Width           =   120
@@ -895,42 +961,10 @@ Begin WebPage WebPage1
       TabOrder        =   16
       Text            =   "血圧"
       TextAlign       =   0
-      Top             =   261
+      Top             =   244
       VerticalCenter  =   0
       Visible         =   True
       Width           =   120
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
-   Begin WebRectangle Rectangle1
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   74
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   91
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   0
-      Style           =   "0"
-      TabOrder        =   -1
-      Top             =   665
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   403
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -976,49 +1010,15 @@ Begin WebPage WebPage1
       _OpenEventFired =   False
       _VerticalPercent=   0.0
    End
-   Begin WebButton Button1
-      AutoDisable     =   False
-      Caption         =   ""
-      Cursor          =   0
-      Enabled         =   True
-      Height          =   44
-      HelpTag         =   ""
-      HorizontalCenter=   0
-      Index           =   -2147483648
-      Left            =   131
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockHorizontal  =   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      LockVertical    =   False
-      Scope           =   2
-      Style           =   "0"
-      TabOrder        =   21
-      Top             =   680
-      VerticalCenter  =   0
-      Visible         =   True
-      Width           =   119
-      ZIndex          =   1
-      _DeclareLineRendered=   False
-      _HorizontalPercent=   0.0
-      _IsEmbedded     =   False
-      _Locked         =   False
-      _NeedsRendering =   True
-      _OfficialControl=   False
-      _OpenEventFired =   False
-      _VerticalPercent=   0.0
-   End
    Begin WebLink Link1
       Cursor          =   0
       Enabled         =   True
       HasFocusRing    =   True
-      Height          =   44
+      Height          =   63
       HelpTag         =   ""
       HorizontalCenter=   0
       Index           =   -2147483648
-      Left            =   141
+      Left            =   144
       LockBottom      =   False
       LockedInPosition=   False
       LockHorizontal  =   False
@@ -1033,11 +1033,11 @@ Begin WebPage WebPage1
       Target          =   1
       Text            =   "証明書発行"
       TextAlign       =   0
-      Top             =   680
-      URL             =   "template/"
+      Top             =   681
+      URL             =   ""
       VerticalCenter  =   0
       Visible         =   True
-      Width           =   99
+      Width           =   106
       ZIndex          =   1
       _DeclareLineRendered=   False
       _HorizontalPercent=   0.0
@@ -1113,7 +1113,7 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   5
-      Top             =   289
+      Top             =   272
       VerticalCenter  =   0
       Visible         =   True
       Width           =   332
@@ -1156,7 +1156,7 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   5
-      Top             =   289
+      Top             =   272
       VerticalCenter  =   0
       Visible         =   True
       Width           =   313
@@ -1479,7 +1479,7 @@ Begin WebPage WebPage1
       TabOrder        =   16
       Text            =   "総合判定"
       TextAlign       =   0
-      Top             =   269
+      Top             =   252
       VerticalCenter  =   0
       Visible         =   True
       Width           =   78
@@ -1522,7 +1522,7 @@ Begin WebPage WebPage1
       SelectionStyle  =   "0"
       Style           =   "0"
       TabOrder        =   6
-      Top             =   289
+      Top             =   272
       VerticalCenter  =   0
       Visible         =   True
       Width           =   703
@@ -1655,6 +1655,7 @@ End
 		  else
 		    Link1.URL="http://"+Host(0).DefineEncoding(Encodings.UTF8).ToText+"/template/mkpdf.php?use=CIRTIFICATE_OF_HEALTH&key="+writeField.text
 		  end if
+		  
 		End Sub
 	#tag EndMethod
 
@@ -1723,8 +1724,12 @@ End
 		  ListBox生理検査.DeleteAllRows
 		  ListBox尿検査.DeleteAllRows
 		  ListBox医師受診.DeleteAllRows
+		  ListBox総合判定.DeleteAllRows
 		  ListBoxXP検査.DeleteAllRows
 		  ListBoxメモ.DeleteAllRows
+		  Link1.URL=""
+		  // Link1.Enabled=False
+		  // Link1.Style=GrayOut
 		  
 		End Sub
 	#tag EndMethod
@@ -1798,8 +1803,9 @@ End
 	#tag Method, Flags = &h0
 		Sub 取得総合判定()
 		  
-		  var id,sql as String
+		  var id,sql,syoken as String
 		  var rs as RowSet
+		  var i as Integer
 		  id = writeField.text
 		  
 		  try
@@ -1811,6 +1817,11 @@ End
 		  Catch e as DatabaseException
 		    messagebox e.Message
 		  end try
+		  if (0  = rs.RowCount) then
+		    syoken =""
+		  else 
+		    syoken = rs.Column("医師所見").StringValue
+		  end if
 		  Listbox総合判定.DeleteAllRows
 		  
 		  try
@@ -1826,6 +1837,19 @@ End
 		  Catch e as DatabaseException
 		    messagebox e.Message
 		  end try
+		  
+		  if "" <> syoken then 
+		    setlink()
+		    Link1.Enabled=True
+		    Link1.Visible=True
+		    Link1.Style=WebStyleNormal
+		    
+		  else 
+		    // Link1.Enabled=False
+		    // Link1.Visible=False
+		    // Link1.Style=GrayOut
+		    
+		  end if
 		End Sub
 	#tag EndMethod
 
@@ -2036,6 +2060,8 @@ End
 		  if "" = Me.text then
 		    フィールドクリア()
 		  else
+		    //Link1.URL=""
+		    //Link1.Enabled=False
 		    Me.text=library1.zenhankanafix(Me.text)
 		    setRecord(Me.text)
 		    library1.取得既往歴()
@@ -2057,6 +2083,7 @@ End
 	#tag Event
 		Sub SelectionChanged()
 		  setlink()
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
