@@ -26,15 +26,23 @@ $ sudo apt install apache2
 $ sudo apt install php
 ```
 
+## OMCUSS パッケージダウンロード
+
+
+```
+$ wget https://github.com/nanbuwks/OMCUSS/archive/refs/heads/main.zip
+$ unzip main.zip
+$ cd OMCUSS-main/
+```
 ## OMCUSS PHP アプリケーション インストール
 
-/var/www/html に、php_server_webapp を展開
+`/var/www/html` に、 `php_server_webapp` を配置
 
 
 ## OMCUSS xojo アプリケーション インストール
 
-任意の場所に xojo_server_webapp を展開
-php_server_webapp/restartxojo.php  内部のパス指定を書き換え
+任意の場所に `xojo_server_webapp` を配置
+`php_server_webapp/restartxojo.php`  内部のパス指定を書き換え
 
 # 副サーバ
 
