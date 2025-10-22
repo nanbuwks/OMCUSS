@@ -1,4 +1,4 @@
- # 正サーバ
+# 正サーバ
 
 ## Linux
 
@@ -38,12 +38,37 @@ $ cd OMCUSS-main/
 
 `/var/www/html` に、 `php_server_webapp` を配置
 
+$ sudo rm /var/www/html/index.html
+$ sudo cp -a php_server_webapp/* /var/www/html
+$ echo '{"host":"127.0.0.1","database":"test","user":"databaseuser","password":"databasepassword"}' > dbaccess.json
+$ sudo cp dbaccess.json /var/www/html
+
 
 ## OMCUSS xojo アプリケーション インストール
 
 任意の場所に `xojo_server_webapp` を配置
-`php_server_webapp/restartxojo.php`  内部のパス指定を書き換え
+```
+$ mkdir ../xojoweb
+$ cp -a xojo_server_webapp/* ../xojoweb/
+$ chmod -R 755 ../xojoweb
+$ chmod +x ..
+```
+
+php_server_webapp 中の `restartxojo.php`  内部のパス指定を書き換え
+
+## 初期データベースインストール
+
+(お問い合わせください)
+
+
+
+## サーバ起動
+
+Webブラウザでアクセス
+
+「一般メニュー」-「サーバーメニュー」-「XOJOサーバ再起動」
 
 # 副サーバ
 
 正サーバと同様に設定
+
