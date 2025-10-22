@@ -2,7 +2,7 @@
 
 ## Linux
 
-- Ubuntu 22.04 ja 版 を使用
+- Ubuntu 24.04 ja 版 を使用
 - インストールオプション デスクトップ
 
 ### インストール後設定
@@ -16,7 +16,7 @@
 
 以下に沿ってインストール、設定
 
-「MariaDB インストール ( Ubuntu 18.04 / 20.04 / 22.04 LTS , Raspberry Pi OS)」
+「MariaDB インストール ( Ubuntu 18.04 / 20.04 / 22.04 / 24.04 LTS , Raspberry Pi OS)」
 https://qiita.com/nanbuwks/items/c98c51744bd0f72a7087
 
 ## apache2 + PHP
