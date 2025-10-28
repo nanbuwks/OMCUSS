@@ -19,11 +19,40 @@
 「MariaDB インストール ( Ubuntu 18.04 / 20.04 / 22.04 / 24.04 LTS , Raspberry Pi OS)」
 https://qiita.com/nanbuwks/items/c98c51744bd0f72a7087
 
+
+```
+$ mysql -u root -p
+```
+
+
+```
+MariaDB [(none)]> create database test;
+MariaDB [(none)]> \q
+```
+
+
+
 ## apache2 + PHP
 
 ```
 $ sudo apt install apache2
 $ sudo apt install php
+```
+
+```
+$ sudo vim /etc/php/8.3/cli/php.ini
+```
+
+```
+memory_limit = 128M
+.
+.
+.
+post_max_size = 100M
+.
+.
+.
+upload_max_filesize = 100M
 ```
 
 ## OMCUSS パッケージダウンロード
@@ -40,6 +69,7 @@ $ cd OMCUSS-main/
 
 $ sudo rm /var/www/html/index.html
 $ sudo cp -a php_server_webapp/* /var/www/html
+$ sudo chown -R www-data:www-data  /var/www/html
 $ echo '{"host":"127.0.0.1","database":"test","user":"databaseuser","password":"databasepassword"}' > dbaccess.json
 $ sudo cp dbaccess.json /var/www/html
 
