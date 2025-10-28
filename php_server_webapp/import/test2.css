@@ -1,0 +1,75 @@
+/* sticky table */
+.sticky_table_wrapper {
+  overflow: scroll;
+  width: calc(100vw - 1rem);
+  height: 75vh;
+}
+.sticky_table {
+  thead th {
+    /* 縦スクロール時に固定する */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* tbody内のセルより手前に表示する */
+    z-index: 1;
+  }
+  thead th:first-child {
+    /* 行内の他のセルより手前に表示する */
+    z-index: 2;
+  }
+  th:first-child {
+    /* 横スクロール時に固定する */
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+  }
+}
+
+/* design */
+body {
+  background: #EC0000;
+  font-family: 'Noto Sans', sans-serif;
+  padding: .5rem;
+}
+.sticky_table {
+  border-collapse: collapse;
+  th, td {
+    text-align: left;
+    padding: .2rem .5rem;
+    font-weight: normal;
+  }
+  thead {
+    th {
+      background: #424242;
+      color: #E0E000;
+    }
+  }
+  tbody {
+    tr {
+      &:nth-child(even) {
+        th { background: darken(#E4D8D4, 4%); }
+        td { background: darken(#FAFAFA, 4%); }
+      }
+      &:nth-child(odd) {
+        th { background: #E4D8D4; }
+        td { background: #FAFAFA; }
+      }
+    }
+  }
+}
+.support {
+  width: calc(100vw - 3.0rem);
+  margin: 0 auto;
+  border-collapse: collapse;
+  tr {
+    background: #FF00C4;
+    &:nth-child(odd) {
+      background: darken(#FFF9C4, 4%);
+    }
+    td {
+      color: #616161;
+      padding: .2rem .5rem;
+    }
+  }
+}
+

@@ -1,0 +1,62 @@
+
+.sticky_table_wrapper12 {
+  overflow: scroll;
+  width: calc(100vw - 2rem);
+  height: 12em;
+  resize: both;
+}
+
+.sticky_table_wrapper6 {
+  overflow: scroll;
+  width: calc(100vw - 2rem);
+  height: 6em;
+  resize: both;
+}
+
+.sticky_table thead th {
+  /* 横ヘッダを固定する */
+  position: -webkit-sticky; /* safari */
+  position: sticky;
+  top: 0;
+  /* tbody内のセルより手前に表示する */
+  z-index: 1;
+}
+.sticky_table thead th:first-child {
+  /* 縦ヘッダ内の最初のセルを手前に表示する */
+  z-index: 2;
+}
+.sticky_table th:first-child {
+  /* 横スクロール時に固定する */
+  position: sticky;
+  left: 0;
+}
+.sticky_table  thead th {
+      vertical-align: middle;
+      text-align: center;
+      font-size: small;
+      padding: 0 15px;
+      border: 1px solid #606080;
+      color: #000000;
+      background: #BBBBBB;
+}
+.sticky_table thead th:first-child {
+      color:#000000;
+      font-weight:bold;
+      background:#CCCCCC;
+      border: 1px solid #606080;
+}
+
+.sticky_table { border-collapse: collapse; }
+.sticky_table  th {
+      color:#000000;
+      font-weight:bold;
+      background:#BBBBBB;
+      border: 1px solid #606080;
+}
+.sticky_table  th, td {
+    text-align: center;
+    padding: .2rem .5rem;
+    font-weight: normal;
+    }
+    tr:nth-child(even) td { background: #FFFFFF; }
+    tr:nth-child(odd) td { background: #F0F0E0; }

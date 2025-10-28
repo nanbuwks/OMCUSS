@@ -1,0 +1,37 @@
+<style type="text/css">
+
+.sticky_table_wrapper {
+  overflow: scroll;
+  width: calc(100vw - 1rem);
+  height: 75vh;
+}
+
+  .table-contents {
+    overflow-x: scroll;
+    width: 640px;
+  }
+  table {
+    white-space: nowrap;
+    border-collapse: collapse;
+    min-width: 640px;
+    border: 1px #666666 solid;
+  }
+  .sticky_table thead th {
+    /* 縦スクロール時に固定する */
+    position: -webkit-sticky;
+      position: sticky;
+        top: 0;
+	  /* tbody内のセルより手前に表示する */
+	  z-index: 1;
+  }
+
+  th {
+    background-color: #7B9DB3;
+    color:#FFFFFF;
+    font-weight: normal;
+  }
+  th, td {
+    border: 1px #666666 solid;
+    padding: 3px 8px;
+  }
+</style>    

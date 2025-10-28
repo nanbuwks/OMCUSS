@@ -47,13 +47,24 @@
 <FORM ACTION=http://<?php echo $_SERVER[ 'SERVER_ADDR' ]; ?>:8092>
 <INPUT TYPE=SUBMIT VALUE=紹介状>
 </FORM>
+<FORM ACTION=http://<?php echo $_SERVER[ 'SERVER_ADDR' ]; ?>:8093>
+<INPUT TYPE=SUBMIT VALUE=診断書>
+</FORM>
 <HR>
 <FORM ACTION=http://192.168.162.139:8065>
 <INPUT TYPE=SUBMIT VALUE=Mattermost>
 </FORM>
+<HR>
+<FORM ACTION=export/export.php>
+<INPUT TYPE=SUBMIT VALUE=単一テーブルエクスポート出力>
+</FORM>
+<FORM ACTION=事後指導/export.php>
+<INPUT TYPE=SUBMIT VALUE=事後指導CSV出力>
+</FORM>
 <FORM ACTION=export年度カード/export.php>
 <INPUT TYPE=SUBMIT VALUE=カード型年度まとめ形式CSV出力>
 </FORM>
+<HR>
 <FORM ACTION=import/import.php>
 <INPUT TYPE=SUBMIT VALUE=CSVファイルインポート>
 </FORM>

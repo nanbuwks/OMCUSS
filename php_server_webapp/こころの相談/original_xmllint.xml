@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document-content xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.2">
+  <office:scripts/>
+  <office:font-face-decls>
+    <style:font-face style:name="Liberation Sans" svg:font-family="'Liberation Sans'" style:font-family-generic="roman" style:font-pitch="variable"/>
+    <style:font-face style:name="Liberation Serif" svg:font-family="'Liberation Serif'" style:font-family-generic="roman" style:font-pitch="variable"/>
+    <style:font-face style:name="Noto Sans" svg:font-family="'Noto Sans'" style:font-family-generic="roman" style:font-pitch="variable"/>
+    <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="游ゴシック" svg:font-family="游ゴシック" style:font-family-generic="system" style:font-pitch="variable"/>
+    <style:font-face style:name="游明朝" svg:font-family="游明朝" style:font-family-generic="system" style:font-pitch="variable"/>
+  </office:font-face-decls>
+  <office:automatic-styles>
+    <style:style style:name="dp1" style:family="drawing-page"/>
+    <style:style style:name="gr1" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill-color="#dddddd" draw:textarea-horizontal-align="justify" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="1.15cm" fo:min-width="18.5cm"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr2" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="true" fo:min-height="0cm" fo:min-width="0cm"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="gr3" style:family="graphic" style:parent-style-name="塗りつぶしなし線なしオブジェクト">
+      <style:graphic-properties draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:ole-draw-aspect="1"/>
+    </style:style>
+    <style:style style:name="gr4" style:family="graphic" style:parent-style-name="objectwithoutfill">
+      <style:graphic-properties draw:stroke="dash" draw:stroke-dash="Dashed_20__28_var_29_" svg:stroke-width="0.028cm" svg:stroke-color="#000000" draw:marker-start-width="0.242cm" draw:marker-end-width="0.242cm" draw:fill="solid" draw:textarea-vertical-align="middle" fo:padding-top="0.139cm" fo:padding-bottom="0.139cm" fo:padding-left="0.264cm" fo:padding-right="0.264cm"/>
+    </style:style>
+    <style:style style:name="gr5" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L1">
+      <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" style:shrink-to-fit="true" fo:min-height="1.25cm"/>
+      <style:paragraph-properties style:writing-mode="lr-tb"/>
+    </style:style>
+    <style:style style:name="P1" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="center"/>
+    </style:style>
+    <style:style style:name="P2" style:family="paragraph">
+      <loext:graphic-properties draw:fill-color="#dddddd"/>
+      <style:paragraph-properties fo:text-align="center"/>
+      <style:text-properties fo:font-size="24pt" fo:letter-spacing="0.12cm" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+    </style:style>
+    <style:style style:name="P3" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+    </style:style>
+    <style:style style:name="P4" style:family="paragraph">
+      <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+    </style:style>
+    <style:style style:name="P5" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+      <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+    </style:style>
+    <style:style style:name="P6" style:family="paragraph">
+      <style:paragraph-properties fo:text-align="end"/>
+    </style:style>
+    <style:style style:name="P7" style:family="paragraph">
+      <loext:graphic-properties draw:fill="solid"/>
+      <style:paragraph-properties fo:text-align="center"/>
+    </style:style>
+    <style:style style:name="P8" style:family="paragraph">
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm"/>
+    </style:style>
+    <style:style style:name="P9" style:family="paragraph">
+      <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
+      <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm"/>
+    </style:style>
+    <style:style style:name="T1" style:family="text">
+      <style:text-properties fo:font-size="24pt" fo:letter-spacing="0.12cm" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+    </style:style>
+    <style:style style:name="T2" style:family="text">
+      <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+    </style:style>
+    <text:list-style style:name="L1">
+      <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+        <style:list-level-properties text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+        <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+        <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+        <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+        <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+        <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+        <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+        <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+        <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+      <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+        <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+        <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+      </text:list-level-style-bullet>
+    </text:list-style>
+  </office:automatic-styles>
+  <office:body>
+    <office:drawing>
+      <draw:page draw:name="page1" draw:style-name="dp1" draw:master-page-name="標準">
+        <draw:custom-shape draw:style-name="gr1" draw:text-style-name="P2" draw:layer="layout" svg:width="19cm" svg:height="1.4cm" svg:x="1cm" svg:y="1.8cm">
+          <text:p text:style-name="P1">
+            <text:span text:style-name="T1">こころの相談カルテ</text:span>
+          </text:p>
+          <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+        </draw:custom-shape>
+        <draw:frame draw:style-name="gr2" draw:text-style-name="P3" draw:layer="layout" svg:width="3.813cm" svg:height="0.967cm" svg:x="2.5cm" svg:y="4.633cm">
+          <draw:text-box>
+            <text:p>##学部生##</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:style-name="gr2" draw:text-style-name="P5" draw:layer="layout" svg:width="8.969cm" svg:height="0.717cm" svg:x="10.801cm" svg:y="3.401cm">
+          <draw:text-box>
+            <text:p text:style-name="P4">
+              <text:span text:style-name="T2">徳島大学キャンパスライフ健康支援センター</text:span>
+            </text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:style-name="gr2" draw:text-style-name="P5" draw:layer="layout" svg:width="1.349cm" svg:height="0.717cm" svg:x="14.202cm" svg:y="4.702cm">
+          <draw:text-box>
+            <text:p text:style-name="P4">
+              <text:span text:style-name="T2">初診</text:span>
+            </text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:style-name="gr2" draw:text-style-name="P3" draw:layer="layout" svg:width="3.178cm" svg:height="0.967cm" svg:x="15.701cm" svg:y="4.601cm">
+          <draw:text-box>
+            <text:p text:style-name="P6">##日付##</text:p>
+          </draw:text-box>
+        </draw:frame>
+        <draw:frame draw:style-name="gr3" draw:layer="layout" svg:width="16.256cm" svg:height="22.099cm" svg:x="2.603cm" svg:y="5.695cm">
+          <draw:object xlink:href="./Object 1" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+          <draw:image xlink:href="./ObjectReplacements/Object 1" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+        </draw:frame>
+        <draw:line draw:style-name="gr4" draw:text-style-name="P7" draw:layer="layout" svg:x1="5.4cm" svg:y1="12.6cm" svg:x2="18.2cm" svg:y2="12.6cm">
+          <text:p/>
+        </draw:line>
+        <draw:frame draw:style-name="gr5" draw:text-style-name="P9" draw:layer="layout" svg:width="4.5cm" svg:height="2.3cm" svg:x="6.1cm" svg:y="14.4cm">
+          <draw:text-box>
+            <text:p text:style-name="P8">あ</text:p>
+            <text:p text:style-name="P8">い</text:p>
+            <text:p text:style-name="P8">う</text:p>
+            <text:p text:style-name="P8">え</text:p>
+            <text:p text:style-name="P8">おあ</text:p>
+            <text:p text:style-name="P8">あ</text:p>
+            <text:p text:style-name="P8"/>
+          </draw:text-box>
+        </draw:frame>
+      </draw:page>
+    </office:drawing>
+  </office:body>
+</office:document-content>
