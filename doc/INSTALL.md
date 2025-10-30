@@ -55,6 +55,11 @@ post_max_size = 100M
 upload_max_filesize = 100M
 ```
 
+## PHPMyAdmin
+
+see:
+https://qiita.com/nanbuwks/items/6768bc73661bdba43af9
+
 ## OMCUSS パッケージダウンロード
 
 
