@@ -62,6 +62,12 @@ post_max_size = 100M
 upload_max_filesize = 100M
 ```
 
+
+```
+sudo service apache2 restart
+```
+で反映
+
 ## PHPMyAdmin
 
 see:
