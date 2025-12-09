@@ -45,9 +45,9 @@ MariaDB [(none)]> \q
 $ sudo apt install apache2
 $ sudo apt install php
 ```
-
+このようにすると amache-module 版が入るので、以下にある php.ini を書き換えます。
 ```
-$ sudo vim /etc/php/8.3/cli/php.ini
+$ sudo vim /etc/php/8.3/apache2/php.ini
 ```
 
 ```
