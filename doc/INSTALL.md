@@ -105,12 +105,16 @@ $ chmod +x ..
 
 php_server_webapp 中の `restartxojo.php`  内部のパス指定を書き換え
 
+
+## databaseアクセス情報を書き換え
+```
+sudo mv dbaccess.json.template dbaccess.json
+sudo vim dbaccess.json
+```
+
 ## 初期データベースインストール
 
 (お問い合わせください)
-
-
-
 ## サーバ起動
 
 Webブラウザでアクセス
