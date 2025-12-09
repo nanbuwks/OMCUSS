@@ -79,12 +79,13 @@ $ cd OMCUSS-main/
 
 `/var/www/html` に、 `php_server_webapp` を配置
 
+```
 $ sudo rm /var/www/html/index.html
 $ sudo cp -a php_server_webapp/* /var/www/html
 $ sudo chown -R www-data:www-data  /var/www/html
 $ echo '{"host":"127.0.0.1","database":"test","user":"databaseuser","password":"databasepassword"}' > dbaccess.json
 $ sudo cp dbaccess.json /var/www/html
-
+```
 
 ## OMCUSS xojo アプリケーション インストール
 
