@@ -92,6 +92,8 @@ $ sudo chown -R www-data:www-data  /var/www/html
 $ echo '{"host":"127.0.0.1","database":"test","user":"databaseuser","password":"databasepassword"}' > dbaccess.json
 $ sudo cp dbaccess.json /var/www/html
 $ sudo apt install python3-pymysql libxml2-utils libreoffice-java-common default-jre
+$ sudo mkdir /var/www/libreoffice
+$ sudo chown www-data:www-data /var/www/libreoffice
 ```
 
 ## OMCUSS xojo アプリケーション インストール
