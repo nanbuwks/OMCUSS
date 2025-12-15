@@ -91,7 +91,7 @@ $ sudo cp -a php_server_webapp/* /var/www/html
 $ sudo chown -R www-data:www-data  /var/www/html
 $ echo '{"host":"127.0.0.1","database":"test","user":"databaseuser","password":"databasepassword"}' > dbaccess.json
 $ sudo cp dbaccess.json /var/www/html
-$ sudo apt install python3-pymysql
+$ sudo apt install python3-pymysql libxml2-utils
 ```
 
 ## OMCUSS xojo アプリケーション インストール
